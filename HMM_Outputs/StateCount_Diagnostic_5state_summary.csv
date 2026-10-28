@@ -1,0 +1,6 @@
+State,ThreshFree_Occ_%,ThreshFree_SEM,Thresholded_Occ_%,Thresholded_SEM,Median_trials_per_rat,N_rats_>= 5_trials,N_rats_expressing,Best_match_ref_state,Best_match_cosine,Is_EXTRA_state
+1,20.51,3.79,21.1,4.15,257,15,15,3,0.607,True
+2,7.78,2.18,7.63,2.49,29,11,11,3,0.993,False
+3,25.23,5.51,25.14,6.14,272,13,13,1,0.992,False
+4,31.0,6.82,32.08,7.58,276,15,15,2,0.999,False
+5,15.48,2.75,14.04,3.0,183,15,15,2,0.948,True

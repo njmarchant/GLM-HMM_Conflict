@@ -1,0 +1,51 @@
+TRACE MODEL: GLM-HMM + decaying conflict-outcome traces
+(states S1-S3 ordered by conflict press logit with no history: for 3 states S1 = Risk-taking, S2 = Risk-averse, S3 = Repeating)
+
+State agreement (smoothed posteriors, all trials of all rats)
+  1.1 model vs traces: 78.5% of trials assigned (max posterior >= 0.65) by both; same state on 69.9% of them (Cohen's kappa 0.541). Mean |difference in posterior| over all trials 22.1 pp.
+  Confusion matrix (trials):
+    traces state        1     2     3
+    1.1 model state                  
+    1                3050  3970   203
+    2                 450  6099    52
+    3                 640   140  3547
+  Occupancy (mean posterior): S1 40.5% vs 27.3%; S2 36.0% vs 51.7%; S3 23.5% vs 20.9%
+  Cosine similarity of the five shared weights, per state: S1 0.669, S2 0.990, S3 0.932
+  stationary re-fit vs traces: 79.0% of trials assigned (max posterior >= 0.65) by both; same state on 70.5% of them (Cohen's kappa 0.552). Mean |difference in posterior| over all trials 21.7 pp.
+  Confusion matrix (trials):
+    traces state                1     2     3
+    stationary re-fit state                  
+    1                        3281  3999   230
+    2                         339  6070    40
+    3                         633   148  3541
+  Occupancy (mean posterior): S1 41.8% vs 27.3%; S2 34.8% vs 51.7%; S3 23.4% vs 20.9%
+  Cosine similarity of the five shared weights, per state: S1 0.664, S2 0.990, S3 0.924
+  (benchmark: 1.1 model vs the stationary re-fit)
+  1.1 model vs re-fit: 86.7% of trials assigned (max posterior >= 0.65) by both; same state on 100.0% of them (Cohen's kappa 1.000). Mean |difference in posterior| over all trials 1.0 pp.
+
+Trace weights (logit units at trace = 1; full fit +/- jackknife SE over 16 leave-one-rat-out fits)
+  Effect of a trace on trial t+k is weight * decay**(k-1). Non-conflict trials: trace weight; conflict trials: trace + trace_x_conflict.
+  z and p use the jackknife SE (the leave-one-rat-out fits share 15 of 16 rats, so their raw spread is not the uncertainty). Weights in a state where conflict presses are rare (e.g. Risk-averse) are poorly constrained: read the SE.
+  S1:
+    shock_trace                -1.26 +/- 0.38 (z = -3.3, p = 0.0009)
+    pellet_trace               +0.35 +/- 0.33 (z = +1.0, p = 0.295)
+    shock_trace_x_conflict     +0.73 +/- 0.13 (z = +5.6, p < 0.0001)
+    pellet_trace_x_conflict    +0.79 +/- 0.42 (z = +1.9, p = 0.061)
+    shock - pellet (nonconflict) -1.61 +/- 0.25 (z = -6.4, p < 0.0001)
+    shock - pellet (conflict   ) -1.66 +/- 0.49 (z = -3.4, p = 0.0007)
+  S2:
+    shock_trace                -0.16 +/- 0.32 (z = -0.5, p = 0.627)
+    pellet_trace               +0.96 +/- 0.23 (z = +4.2, p < 0.0001)
+    shock_trace_x_conflict     +0.45 +/- 0.28 (z = +1.6, p = 0.102)
+    pellet_trace_x_conflict    +0.61 +/- 0.21 (z = +2.9, p = 0.004)
+    shock - pellet (nonconflict) -1.11 +/- 0.16 (z = -7.0, p < 0.0001)
+    shock - pellet (conflict   ) -1.27 +/- 0.21 (z = -6.1, p < 0.0001)
+  S3:
+    shock_trace                +0.31 +/- 0.22 (z = +1.4, p = 0.171)
+    pellet_trace               +1.82 +/- 0.41 (z = +4.5, p < 0.0001)
+    shock_trace_x_conflict     -0.08 +/- 0.13 (z = -0.6, p = 0.558)
+    pellet_trace_x_conflict    +0.22 +/- 0.54 (z = +0.4, p = 0.685)
+    shock - pellet (nonconflict) -1.52 +/- 0.53 (z = -2.9, p = 0.004)
+    shock - pellet (conflict   ) -1.81 +/- 0.48 (z = -3.8, p = 0.0001)
+  Decay per trial, shock trace: 0.98 +/- 0.05; half-life 40.3 trials
+  Decay per trial, pellet trace: 0.91 +/- 0.01; half-life 7.3 trials

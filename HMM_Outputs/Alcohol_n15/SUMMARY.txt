@@ -1,0 +1,50 @@
+Alcohol state occupancy. Threshold 0.65; split at 900 s; 15 rats.
+Rats analysed: ['R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21', 'R22', 'R23', 'R24']
+Excluded by configuration: []
+
+=== first_15min: 1442 trials, 13.8% unassigned ===
+Occupancy (% of assigned trials), mean +/- SEM over rats [n]:
+  State 1: Saline  63.8 +/-  8.5 [15] | 0.5 g/kg  70.6 +/-  7.8 [15] | 1.0 g/kg  29.5 +/-  6.1 [15]
+  State 2: Saline  26.8 +/-  7.9 [15] | 0.5 g/kg   6.6 +/-  4.6 [15] | 1.0 g/kg   2.9 +/-  2.9 [15]
+  State 3: Saline   9.4 +/-  3.5 [15] | 0.5 g/kg  22.7 +/-  5.3 [15] | 1.0 g/kg  67.6 +/-  5.8 [15]
+Press rate (%), mean +/- SEM over rats [n]:
+  rewDS    : Saline  95.7 +/-  1.8 [15] | 0.5 g/kg  90.3 +/-  3.1 [15] | 1.0 g/kg  52.1 +/-  6.4 [15]
+  punDS    : Saline  18.0 +/-  4.9 [15] | 0.5 g/kg  31.1 +/-  6.5 [15] | 1.0 g/kg  35.0 +/-  7.2 [15]
+  Conflict : Saline  56.2 +/-  5.9 [15] | 0.5 g/kg  67.9 +/-  6.7 [15] | 1.0 g/kg  40.5 +/-  8.1 [15]
+
+=== after_15min: 7458 trials, 11.3% unassigned ===
+Occupancy (% of assigned trials), mean +/- SEM over rats [n]:
+  State 1: Saline  50.5 +/-  8.4 [15] | 0.5 g/kg  54.9 +/-  7.5 [15] | 1.0 g/kg  43.6 +/-  7.1 [15]
+  State 2: Saline  33.9 +/-  7.8 [15] | 0.5 g/kg  12.4 +/-  4.8 [15] | 1.0 g/kg   9.6 +/-  4.3 [15]
+  State 3: Saline  15.5 +/-  4.3 [15] | 0.5 g/kg  32.6 +/-  7.2 [15] | 1.0 g/kg  46.8 +/-  6.8 [15]
+Press rate (%), mean +/- SEM over rats [n]:
+  rewDS    : Saline  87.3 +/-  4.2 [15] | 0.5 g/kg  76.5 +/-  6.9 [15] | 1.0 g/kg  76.8 +/-  5.0 [15]
+  punDS    : Saline  15.6 +/-  3.7 [15] | 0.5 g/kg  21.9 +/-  7.0 [15] | 1.0 g/kg  35.1 +/-  7.2 [15]
+  Conflict : Saline  48.4 +/-  5.5 [15] | 0.5 g/kg  54.9 +/-  7.2 [15] | 1.0 g/kg  59.8 +/-  5.7 [15]
+
+Nonparametric dose tests (rat = unit; Holm within each state/cue):
+      Epoch              Measure  N_rats  Friedman_chi2  Friedman_p             Comparison  Median_diff  Wilcoxon_p  Holm_p
+first_15min   Occupancy, State 1      15        10.8421      0.0044  Saline vs Alcohol_Low       0.0000      0.3882  0.3882
+first_15min   Occupancy, State 1      15        10.8421      0.0044 Saline vs Alcohol_High     -40.0000      0.0034  0.0067
+first_15min   Occupancy, State 2      15         9.9231      0.0070  Saline vs Alcohol_Low       0.0000      0.1230  0.1230
+first_15min   Occupancy, State 2      15         9.9231      0.0070 Saline vs Alcohol_High       0.0000      0.0178  0.0355
+first_15min   Occupancy, State 3      15        25.8571      0.0000  Saline vs Alcohol_Low       7.4074      0.0262  0.0262
+first_15min   Occupancy, State 3      15        25.8571      0.0000 Saline vs Alcohol_High      54.1667      0.0001  0.0001
+first_15min    Press rate, rewDS      15        16.5926      0.0002  Saline vs Alcohol_Low       0.0000      0.1383  0.1383
+first_15min    Press rate, rewDS      15        16.5926      0.0002 Saline vs Alcohol_High     -46.6667      0.0010  0.0020
+first_15min    Press rate, punDS      15         4.3509      0.1136  Saline vs Alcohol_Low      12.5000      0.0413  0.0413
+first_15min    Press rate, punDS      15         4.3509      0.1136 Saline vs Alcohol_High      12.5000      0.0185  0.0371
+first_15min Press rate, Conflict      15         4.7119      0.0948  Saline vs Alcohol_Low      16.6667      0.2804  0.3146
+first_15min Press rate, Conflict      15         4.7119      0.0948 Saline vs Alcohol_High     -28.4091      0.1573  0.3146
+after_15min   Occupancy, State 1      15         2.1333      0.3442  Saline vs Alcohol_Low       6.2424      0.6788  1.0000
+after_15min   Occupancy, State 1      15         2.1333      0.3442 Saline vs Alcohol_High      -1.5744      0.5614  1.0000
+after_15min   Occupancy, State 2      15         8.5909      0.0136  Saline vs Alcohol_Low     -15.6250      0.0281  0.0281
+after_15min   Occupancy, State 2      15         8.5909      0.0136 Saline vs Alcohol_High      -9.4193      0.0076  0.0153
+after_15min   Occupancy, State 3      15        10.6102      0.0050  Saline vs Alcohol_Low      23.2406      0.0640  0.0640
+after_15min   Occupancy, State 3      15        10.6102      0.0050 Saline vs Alcohol_High      22.5690      0.0006  0.0012
+after_15min    Press rate, rewDS      15         6.2034      0.0450  Saline vs Alcohol_Low      -8.9286      0.1771  0.1771
+after_15min    Press rate, rewDS      15         6.2034      0.0450 Saline vs Alcohol_High     -15.7895      0.0413  0.0825
+after_15min    Press rate, punDS      15        10.1333      0.0063  Saline vs Alcohol_Low       1.8182      0.4887  0.4887
+after_15min    Press rate, punDS      15        10.1333      0.0063 Saline vs Alcohol_High      10.6169      0.0020  0.0040
+after_15min Press rate, Conflict      15         0.9333      0.6271  Saline vs Alcohol_Low      -2.7273      0.4543  0.4543
+after_15min Press rate, Conflict      15         0.9333      0.6271 Saline vs Alcohol_High      13.9185      0.0554  0.1107

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+# refits that 1.1 saves next to the shipped models when OVERWRITE_MODELS is False
+*_refit.pkl

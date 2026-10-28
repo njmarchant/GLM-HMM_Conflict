@@ -1,0 +1,268 @@
+Loaded Data/collated_2026_conflict_alcohol_with_Probabilities_065.csv: 8900 rows. Columns:
+  ['Rat', 'Sex', 'Hemi', 'Session_Type', 'Session_ID', 'Date', 'Trial', 'Timestamp', 'Cue', 'Response', 'Outcome', 'Latency', 'ZMean_BL', 'ZMean_Cue5s', 'ZMean_Cue10s', 'ZMean_CueFull', 'ZMean_Lever', 'mean_postResponse_0_5', 'mean_preResponse_10_0', 'Test', 'Box', 'Time_MedPC_s', 'Response_Source', 'Timestamp_Source', 'Table_Status', 'Table_Row_Used', 'Condition_Source', 'MedPC_File', 'past_pellet', 'past_shock', 'rew_cue_val', 'pun_cue_val', 'bias', 'Lever_Press', 'Inferred_State', 'State_Confidence', 'Prob_State_1', 'Prob_State_2', 'Prob_State_3']
+
+15 rats; sessions per dose:
+Dose_label
+High      2
+Low       2
+Saline    2
+
+Frozen model: K = 3
+             rewDS  punDS  past_pellet  past_shock  bias
+Risk-taking   2.92  -1.98         0.26       -0.18 -0.26
+Risk-averse   0.44  -5.27         0.30        1.17  2.51
+Repeating     0.10   0.35        10.04        7.31 -5.32
+
+Check vs existing Prob_State columns (5.1 output): max abs diff = 1.35e-14
+Unassigned (smoothed, >= 0.65): 11.7% of trials
+
+======================================================================
+EXTRA  Occupancy and response rates by epoch (frozen decoding)
+======================================================================
+
+[full] occupancy, % of assigned trials (mean across rats):
+            Risk-taking  Risk-averse  Repeating
+Dose_label                                     
+Saline             52.6         33.2       14.2
+Low                57.8         11.3       30.8
+High               41.8          8.6       49.6
+[full] response rate, %:
+Cue         reward  punish  conflict
+Dose_label                          
+Saline        89.0    16.0      49.7
+Low           81.4    23.8      57.6
+High          72.1    35.1      57.8
+
+[first15] occupancy, % of assigned trials (mean across rats):
+            Risk-taking  Risk-averse  Repeating
+Dose_label                                     
+Saline             63.8         26.8        9.4
+Low                70.6          6.6       22.7
+High               29.5          2.9       67.6
+[first15] response rate, %:
+Cue         reward  punish  conflict
+Dose_label                          
+Saline        95.9    19.3      57.0
+Low           91.6    34.1      68.8
+High          54.0    37.0      45.6
+
+[post15] occupancy, % of assigned trials (mean across rats):
+            Risk-taking  Risk-averse  Repeating
+Dose_label                                     
+Saline             50.5         33.9       15.5
+Low                54.9         12.4       32.6
+High               43.6          9.6       46.8
+[post15] response rate, %:
+Cue         reward  punish  conflict
+Dose_label                          
+Saline        87.2    15.4      48.4
+Low           78.6    22.1      55.7
+High          76.6    34.8      59.5
+
+======================================================================
+CHECK 1  State-conditioned response profiles by dose (post-15 min)
+======================================================================
+
+[smoothed assignment] observed % (model-implied %) [n rats with >= 5 trials]
+Dose                           Saline                 Low                High
+State       Cue                                                              
+Repeating   Conf     33.3 ( 32.2) [6]   42.4 ( 41.5) [10]   41.5 ( 41.2) [15]
+            punDS    42.9 ( 41.8) [7]   45.4 ( 43.5) [10]   45.5 ( 44.0) [15]
+            rewDS    28.6 ( 26.7) [7]   39.1 ( 37.3) [11]   41.0 ( 39.0) [15]
+Risk-averse Conf    10.4 ( 10.7) [10]     7.4 ( 11.1) [6]    17.3 ( 11.4) [4]
+            punDS    6.0 (  7.3) [10]     3.8 (  6.7) [6]    10.5 (  7.3) [4]
+            rewDS   98.2 ( 95.5) [10]    91.4 ( 95.3) [6]    98.7 ( 95.6) [4]
+Risk-taking Conf    76.3 ( 68.0) [14]   74.8 ( 67.8) [14]   75.9 ( 67.9) [13]
+            punDS   11.8 ( 10.5) [14]   13.9 ( 10.5) [14]   15.3 ( 10.5) [14]
+            rewDS   98.0 ( 93.7) [12]   97.4 ( 93.8) [13]   96.1 ( 93.7) [13]
+
+  Residual (observed - model-implied), High vs Saline, paired across rats [smoothed]:
+  Risk-taking rewDS: mean diff = -2.3833 (SEM 1.6477), higher in 6/11 rats, t(10) = -1.45, p = 0.1787; Wilcoxon p = 0.5195
+  Risk-taking punDS: mean diff = +2.2564 (SEM 3.3801), higher in 8/13 rats, t(12) = 0.67, p = 0.5171; Wilcoxon p = 0.4143
+  Risk-taking Conf : mean diff = +0.9058 (SEM 2.8406), higher in 6/12 rats, t(11) = 0.32, p = 0.7558; Wilcoxon p = 1.0000
+  Risk-averse rewDS: mean diff = -1.2398 (SEM 1.2519), higher in 1/4 rats, t(3) = -0.99, p = 0.3950; Wilcoxon p = 0.6250
+  Risk-averse punDS: mean diff = -0.1033 (SEM 4.2051), higher in 2/4 rats, t(3) = -0.02, p = 0.9819; Wilcoxon p = 1.0000
+  Risk-averse Conf : mean diff = +7.6949 (SEM 4.8955), higher in 3/4 rats, t(3) = 1.57, p = 0.2140; Wilcoxon p = 0.3750
+  Repeating   rewDS: mean diff = +0.3660 (SEM 0.6469), higher in 3/7 rats, t(6) = 0.57, p = 0.5921; Wilcoxon p = 0.8125
+  Repeating   punDS: mean diff = +0.7492 (SEM 0.6334), higher in 5/7 rats, t(6) = 1.18, p = 0.2816; Wilcoxon p = 0.2969
+  Repeating   Conf : mean diff = -1.5612 (SEM 0.5109), higher in 0/6 rats, t(5) = -3.06, p = 0.0282; Wilcoxon p = 0.0312
+
+[predictive assignment] observed % (model-implied %) [n rats with >= 5 trials]
+Dose                           Saline                 Low                High
+State       Cue                                                              
+Repeating   Conf     39.8 ( 40.8) [7]   42.4 ( 39.2) [10]   44.8 ( 42.1) [15]
+            punDS    31.5 ( 42.1) [7]   33.0 ( 41.3) [10]   35.3 ( 43.7) [15]
+            rewDS    38.8 ( 31.7) [6]   56.3 ( 43.2) [10]   55.5 ( 41.9) [15]
+Risk-averse Conf    30.4 ( 10.2) [11]    29.1 ( 10.4) [6]    23.9 ( 11.6) [3]
+            punDS    6.3 (  7.1) [11]     4.5 (  6.5) [6]    11.2 (  6.9) [4]
+            rewDS   96.5 ( 95.5) [11]    68.0 ( 95.4) [6]    94.1 ( 95.6) [3]
+Risk-taking Conf    61.8 ( 67.8) [14]   69.0 ( 68.0) [14]   69.6 ( 68.2) [14]
+            punDS   20.6 ( 10.8) [14]   25.0 ( 10.6) [14]   32.3 ( 10.6) [14]
+            rewDS   91.6 ( 93.7) [14]   89.3 ( 93.9) [14]   88.8 ( 93.8) [13]
+
+  Residual (observed - model-implied), High vs Saline, paired across rats [predictive]:
+  Risk-taking rewDS: mean diff = -3.0545 (SEM 3.9831), higher in 3/12 rats, t(11) = -0.77, p = 0.4593; Wilcoxon p = 0.0923
+  Risk-taking punDS: mean diff = +14.9224 (SEM 4.9424), higher in 12/13 rats, t(12) = 3.02, p = 0.0107; Wilcoxon p = 0.0012
+  Risk-taking Conf : mean diff = +9.9485 (SEM 4.0089), higher in 9/13 rats, t(12) = 2.48, p = 0.0289; Wilcoxon p = 0.0479
+  Risk-averse rewDS: mean diff = -1.2488 (SEM 4.4463), higher in 1/3 rats, t(2) = -0.28, p = 0.8052; Wilcoxon p = 1.0000
+  Risk-averse punDS: mean diff = -0.8570 (SEM 7.6692), higher in 2/4 rats, t(3) = -0.11, p = 0.9181; Wilcoxon p = 1.0000
+  Risk-averse Conf : mean diff = -4.7197 (SEM 17.8576), higher in 2/3 rats, t(2) = -0.26, p = 0.8163; Wilcoxon p = 1.0000
+  Repeating   rewDS: mean diff = +7.5673 (SEM 2.5054), higher in 5/6 rats, t(5) = 3.02, p = 0.0294; Wilcoxon p = 0.0625
+  Repeating   punDS: mean diff = +5.0518 (SEM 6.9965), higher in 4/7 rats, t(6) = 0.72, p = 0.4974; Wilcoxon p = 0.5781
+  Repeating   Conf : mean diff = +0.8690 (SEM 7.9896), higher in 3/7 rats, t(6) = 0.11, p = 0.9169; Wilcoxon p = 0.8125
+
+======================================================================
+CHECK 2  Frozen-model one-step-ahead fit by dose (post15)
+======================================================================
+
+LL_per_trial: Saline -0.397 (0.019), Low -0.428 (0.022), High -0.418 (0.027)
+  Low vs Saline: mean diff = -0.0311 (SEM 0.0189), higher in 4/15 rats, t(14) = -1.64, p = 0.1231; Wilcoxon p = 0.1688
+  High vs Saline: mean diff = -0.0208 (SEM 0.0324), higher in 5/15 rats, t(14) = -0.64, p = 0.5323; Wilcoxon p = 0.3894
+
+Accuracy: Saline 83.664 (1.103), Low 81.589 (1.453), High 82.316 (1.765)
+  Low vs Saline: mean diff = -2.0752 (SEM 1.2145), higher in 6/15 rats, t(14) = -1.71, p = 0.1096; Wilcoxon p = 0.1876
+  High vs Saline: mean diff = -1.3481 (SEM 1.9648), higher in 4/15 rats, t(14) = -0.69, p = 0.5039; Wilcoxon p = 0.2524
+  (Lower LL under alcohol can mean either a poorer fit or noisier behaviour; see CHECK 3.)
+
+======================================================================
+CHECK 3  Refits warm-started from the frozen model (post15)
+======================================================================
+
+In-sample fit (7458 trials):
+                   Model       LL  k     AIC     BIC  LL_per_trial
+F frozen (0 free params) -3092.95  0 6185.89 6185.89         -0.41
+          R shared refit -2973.22 23 5992.44 6151.54         -0.40
+         X dose as input -2928.06 35 5926.13 6168.22         -0.39
+         D dose-specific -2877.31 69 5892.61 6369.89         -0.39
+
+Weights (positive = drive to press):
+       Model       State  rewDS  punDS  past_pellet  past_shock  bias  cos_to_frozen   Low  High  Low x punDS  High x punDS
+      Frozen Risk-taking   2.92  -1.98         0.26       -0.18 -0.26            NaN   NaN   NaN          NaN           NaN
+    R shared Risk-taking   1.79  -3.03         0.53       -0.09  0.28            NaN   NaN   NaN          NaN           NaN
+    D Saline Risk-taking   3.29  -2.17         0.44        0.06  0.10           0.99   NaN   NaN          NaN           NaN
+       D Low Risk-taking   2.06  -1.71         1.83        0.89 -2.47           0.70   NaN   NaN          NaN           NaN
+      D High Risk-taking   2.83  -1.21         0.80       -0.04 -0.43           0.96   NaN   NaN          NaN           NaN
+X dose-input Risk-taking   2.82  -2.36         0.31        0.13  0.70            NaN  2.76  6.02        -3.05         -5.38
+      Frozen Risk-averse   0.44  -5.27         0.30        1.17  2.51            NaN   NaN   NaN          NaN           NaN
+    R shared Risk-averse   3.29  -3.59         0.11       -0.01  2.36            NaN   NaN   NaN          NaN           NaN
+    D Saline Risk-averse   0.75  -5.27         0.47        1.18  3.00           1.00   NaN   NaN          NaN           NaN
+       D Low Risk-averse   2.80 -10.29        -0.02        0.15  8.55           0.94   NaN   NaN          NaN           NaN
+      D High Risk-averse   1.57  -3.67         0.68        0.83  1.33           0.95   NaN   NaN          NaN           NaN
+X dose-input Risk-averse   1.33  -5.45         1.16        0.85  2.08            NaN -4.18 -2.98         3.83          3.38
+      Frozen   Repeating   0.10   0.35        10.04        7.31 -5.32            NaN   NaN   NaN          NaN           NaN
+    R shared   Repeating  -2.00  -1.13        13.41        9.59 -3.22            NaN   NaN   NaN          NaN           NaN
+    D Saline   Repeating   1.55   0.77         4.86        4.67 -4.44           0.96   NaN   NaN          NaN           NaN
+       D Low   Repeating  -0.03  -0.49        20.14        3.87 -0.25           0.84   NaN   NaN          NaN           NaN
+      D High   Repeating  -4.72  -5.27        13.05       11.71  1.01           0.82   NaN   NaN          NaN           NaN
+X dose-input   Repeating   0.48   0.29         5.74        5.10 -3.92            NaN  5.23  1.55        -2.90         -0.85
+
+Transition matrices:
+       Model        From  to Risk-taking  to Risk-averse  to Repeating
+      Frozen Risk-taking           0.947           0.008         0.044
+      Frozen Risk-averse           0.010           0.978         0.012
+      Frozen   Repeating           0.064           0.020         0.915
+    R shared Risk-taking           0.955           0.010         0.035
+    R shared Risk-averse           0.012           0.961         0.027
+    R shared   Repeating           0.053           0.031         0.916
+X dose-input Risk-taking           0.965           0.021         0.013
+X dose-input Risk-averse           0.028           0.971         0.001
+X dose-input   Repeating           0.029           0.003         0.968
+    D Saline Risk-taking           0.986           0.006         0.008
+    D Saline Risk-averse           0.014           0.979         0.007
+    D Saline   Repeating           0.009           0.018         0.973
+       D Low Risk-taking           1.000           0.000         0.000
+       D Low Risk-averse           0.009           0.965         0.027
+       D Low   Repeating           0.000           0.079         0.921
+      D High Risk-taking           0.903           0.003         0.094
+      D High Risk-averse           0.000           1.000         0.000
+      D High   Repeating           0.084           0.002         0.914
+
+Occupancy (post15, smoothed >= 0.65) decoded with each dose's OWN refit model:
+            Risk-taking  Risk-averse  Repeating
+Dose_label                                     
+Saline             41.2         43.0       15.8
+Low                39.9         46.0       14.1
+High               35.2         20.1       44.7
+  Risk-taking High vs Saline: mean diff = -6.0135 (SEM 8.5833), higher in 7/15 rats, t(14) = -0.70, p = 0.4950; Wilcoxon p = 0.5614
+  Risk-averse High vs Saline: mean diff = -22.8933 (SEM 8.5159), higher in 3/15 rats, t(14) = -2.69, p = 0.0177; Wilcoxon p = 0.0231
+  Repeating   High vs Saline: mean diff = +28.9069 (SEM 7.3092), higher in 13/15 rats, t(14) = 3.95, p = 0.0014; Wilcoxon p = 0.0012
+
+Leave-one-rat-out CV (held-out LL per trial; higher = better):
+  fold 1/15 done (held out R10)
+  fold 2/15 done (held out R11)
+  fold 3/15 done (held out R12)
+  fold 4/15 done (held out R13)
+  fold 5/15 done (held out R14)
+  fold 6/15 done (held out R15)
+  fold 7/15 done (held out R16)
+  fold 8/15 done (held out R17)
+  fold 9/15 done (held out R18)
+  fold 10/15 done (held out R19)
+  fold 11/15 done (held out R20)
+  fold 12/15 done (held out R21)
+  fold 13/15 done (held out R22)
+  fold 14/15 done (held out R23)
+  fold 15/15 done (held out R24)
+
+Mean held-out LL per trial: F -0.4145, R -0.4127, X -0.4142, D -0.4162
+  R shared refit  vs F frozen     : mean diff = +0.0017 (SEM 0.0046), higher in 7/15 rats, t(14) = 0.38, p = 0.7122; Wilcoxon p = 0.9341
+  X dose-as-input vs R shared refit: mean diff = -0.0015 (SEM 0.0028), higher in 5/15 rats, t(14) = -0.53, p = 0.6033; Wilcoxon p = 0.4887
+  D dose-specific vs R shared refit: mean diff = -0.0034 (SEM 0.0040), higher in 7/15 rats, t(14) = -0.87, p = 0.3988; Wilcoxon p = 0.4212
+
+  By dose (D - R, X - R):
+    Saline D vs R: mean diff = -0.0012 (SEM 0.0078), higher in 5/15 rats, t(14) = -0.15, p = 0.8835; Wilcoxon p = 0.7197
+    Saline X vs R: mean diff = +0.0037 (SEM 0.0060), higher in 7/15 rats, t(14) = 0.62, p = 0.5462; Wilcoxon p = 0.7197
+    Low    D vs R: mean diff = +0.0043 (SEM 0.0109), higher in 6/15 rats, t(14) = 0.39, p = 0.7015; Wilcoxon p = 0.9780
+    Low    X vs R: mean diff = -0.0016 (SEM 0.0085), higher in 5/15 rats, t(14) = -0.19, p = 0.8503; Wilcoxon p = 0.4543
+    High   D vs R: mean diff = -0.0120 (SEM 0.0056), higher in 4/15 rats, t(14) = -2.16, p = 0.0487; Wilcoxon p = 0.0554
+    High   X vs R: mean diff = -0.0061 (SEM 0.0058), higher in 6/15 rats, t(14) = -1.06, p = 0.3086; Wilcoxon p = 0.3591
+
+Rat-level bootstrap of dose-specific weights (100 resamples):
+  10/100
+  20/100
+  30/100
+  40/100
+  50/100
+  60/100
+  70/100
+  80/100
+  90/100
+  100/100
+                         High_minus_Saline_median  High_CI_low  High_CI_high  Low_minus_Saline_median  Low_CI_low  Low_CI_high
+State       Weight                                                                                                            
+Repeating   bias                             6.80        -5.14         19.58                     4.35       -6.20        17.82
+            past_pellet                      7.20        -6.17         22.48                    11.85       -2.89        20.74
+            past_shock                       6.09        -7.42         23.31                     6.11      -10.06        18.85
+            punDS                           -5.51       -14.25          6.25                    -3.29       -9.61         3.37
+            rewDS                           -6.01       -17.59          1.74                    -5.16      -16.23         2.76
+Risk-averse bias                            -0.97        -9.06          7.96                     2.74       -7.82         7.70
+            past_pellet                      0.20        -1.72          4.75                    -0.44       -1.32         2.06
+            past_shock                      -0.11        -2.43         10.73                    -0.84       -2.24         1.98
+            punDS                            1.02        -9.65          7.18                    -2.03       -6.93         6.55
+            rewDS                            0.35        -7.61          4.45                     1.71       -0.31         2.89
+Risk-taking bias                            -0.60        -7.49          6.96                    -2.20       -9.29         1.86
+            past_pellet                      0.26        -2.15          1.92                     1.19       -0.62         2.51
+            past_shock                       0.06        -2.58          2.94                     0.59       -0.84         4.20
+            punDS                            0.55        -3.97          7.15                     0.18       -3.13         7.46
+            rewDS                           -0.35        -6.82          2.97                    -0.88       -7.61         3.04
+  (95% CI excluding 0 = weight changed with dose. Weights in rarely occupied
+   states, e.g. Risk-averse under High, are poorly constrained: expect wide CIs.)
+
+======================================================================
+INTERPRETATION
+======================================================================
+Occupancy account supported if:
+  - CHECK 1: within each state, observed rates under alcohol match the model-implied
+    rates about as well as under saline (residuals High vs Saline n.s.), especially
+    punDS and conflict in Risk-averse and Risk-taking;
+  - CHECK 3: D and X do not improve held-out LL over R, X's Low/High and dose x punDS
+    terms inside Risk-averse are small, and occupancy decoded with the dose-specific
+    model (D) still shows less Risk-averse under alcohol.
+Within-state policy change indicated if:
+  - Risk-averse (or Risk-taking) punDS/conflict responding exceeds the model under
+    alcohol, D or X beat R out of sample, and D's punDS weight in Risk-averse shrinks
+    under alcohol with a bootstrap CI excluding 0.
+Either outcome is reportable; the second would change the alcohol section from
+"loss of the Risk-averse state" to "weakened punishment weighting within it".
+
+Done. Outputs in 'HMM_Outputs/Alcohol_checks/'.

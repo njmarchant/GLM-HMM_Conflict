@@ -1,0 +1,769 @@
+HeldOut_Rat,Model,Cue,Accuracy
+R09,GLM static,reward,87.87878787878788
+R09,GLM static,punish,97.5359342915811
+R09,GLM static,conflict,60.20618556701031
+R09,GLM drift (session reset),reward,91.47727272727272
+R09,GLM drift (session reset),punish,96.30390143737166
+R09,GLM drift (session reset),conflict,76.70103092783506
+R09,GLM drift (carry over days),reward,90.9090909090909
+R09,GLM drift (carry over days),punish,97.3305954825462
+R09,GLM drift (carry over days),conflict,77.31958762886599
+R09,"Q-learning, no Pavlovian (elemental; v1)",reward,87.87878787878788
+R09,"Q-learning, no Pavlovian (elemental; v1)",punish,97.5359342915811
+R09,"Q-learning, no Pavlovian (elemental; v1)",conflict,72.37113402061856
+R09,"Q-learning, no Pavlovian (configural; v1)",reward,88.25757575757575
+R09,"Q-learning, no Pavlovian (configural; v1)",punish,97.5359342915811
+R09,"Q-learning, no Pavlovian (configural; v1)",conflict,67.83505154639175
+R09,GLM per-session weights (no drift),reward,90.3409090909091
+R09,GLM per-session weights (no drift),punish,96.30390143737166
+R09,GLM per-session weights (no drift),conflict,73.81443298969073
+R09,GLM per-rat weights (no drift),reward,87.87878787878788
+R09,GLM per-rat weights (no drift),punish,97.5359342915811
+R09,GLM per-rat weights (no drift),conflict,64.3298969072165
+R10,GLM static,reward,93.20754716981132
+R10,GLM static,punish,88.88888888888889
+R10,GLM static,conflict,62.39669421487604
+R10,GLM drift (session reset),reward,94.33962264150944
+R10,GLM drift (session reset),punish,89.50617283950618
+R10,GLM drift (session reset),conflict,79.13223140495867
+R10,GLM drift (carry over days),reward,93.7735849056604
+R10,GLM drift (carry over days),punish,90.12345679012346
+R10,GLM drift (carry over days),conflict,82.43801652892562
+R10,"Q-learning, no Pavlovian (elemental; v1)",reward,93.20754716981132
+R10,"Q-learning, no Pavlovian (elemental; v1)",punish,88.88888888888889
+R10,"Q-learning, no Pavlovian (elemental; v1)",conflict,79.33884297520662
+R10,"Q-learning, no Pavlovian (configural; v1)",reward,91.69811320754717
+R10,"Q-learning, no Pavlovian (configural; v1)",punish,88.88888888888889
+R10,"Q-learning, no Pavlovian (configural; v1)",conflict,77.27272727272727
+R10,GLM per-session weights (no drift),reward,93.39622641509436
+R10,GLM per-session weights (no drift),punish,89.09465020576131
+R10,GLM per-session weights (no drift),conflict,78.71900826446281
+R10,GLM per-rat weights (no drift),reward,93.20754716981132
+R10,GLM per-rat weights (no drift),punish,88.68312757201646
+R10,GLM per-rat weights (no drift),conflict,74.79338842975206
+R11,GLM static,reward,60.28880866425993
+R11,GLM static,punish,97.63779527559056
+R11,GLM static,conflict,69.56521739130434
+R11,GLM drift (session reset),reward,78.33935018050542
+R11,GLM drift (session reset),punish,96.45669291338582
+R11,GLM drift (session reset),conflict,77.4703557312253
+R11,GLM drift (carry over days),reward,80.50541516245488
+R11,GLM drift (carry over days),punish,97.24409448818898
+R11,GLM drift (carry over days),conflict,77.4703557312253
+R11,"Q-learning, no Pavlovian (elemental; v1)",reward,60.28880866425993
+R11,"Q-learning, no Pavlovian (elemental; v1)",punish,97.63779527559056
+R11,"Q-learning, no Pavlovian (elemental; v1)",conflict,58.89328063241107
+R11,"Q-learning, no Pavlovian (configural; v1)",reward,58.48375451263538
+R11,"Q-learning, no Pavlovian (configural; v1)",punish,97.63779527559056
+R11,"Q-learning, no Pavlovian (configural; v1)",conflict,60.0790513833992
+R11,GLM per-session weights (no drift),reward,76.89530685920577
+R11,GLM per-session weights (no drift),punish,97.24409448818898
+R11,GLM per-session weights (no drift),conflict,74.70355731225297
+R11,GLM per-rat weights (no drift),reward,69.67509025270758
+R11,GLM per-rat weights (no drift),punish,97.24409448818898
+R11,GLM per-rat weights (no drift),conflict,69.1699604743083
+R12,GLM static,reward,81.36882129277566
+R12,GLM static,punish,86.66666666666667
+R12,GLM static,conflict,67.98336798336798
+R12,GLM drift (session reset),reward,84.79087452471484
+R12,GLM drift (session reset),punish,89.16666666666667
+R12,GLM drift (session reset),conflict,79.83367983367984
+R12,GLM drift (carry over days),reward,83.84030418250951
+R12,GLM drift (carry over days),punish,88.75
+R12,GLM drift (carry over days),conflict,81.70478170478171
+R12,"Q-learning, no Pavlovian (elemental; v1)",reward,81.36882129277566
+R12,"Q-learning, no Pavlovian (elemental; v1)",punish,86.66666666666667
+R12,"Q-learning, no Pavlovian (elemental; v1)",conflict,79.002079002079
+R12,"Q-learning, no Pavlovian (configural; v1)",reward,80.03802281368822
+R12,"Q-learning, no Pavlovian (configural; v1)",punish,86.66666666666667
+R12,"Q-learning, no Pavlovian (configural; v1)",conflict,78.5862785862786
+R12,GLM per-session weights (no drift),reward,84.79087452471484
+R12,GLM per-session weights (no drift),punish,88.95833333333333
+R12,GLM per-session weights (no drift),conflict,80.04158004158003
+R12,GLM per-rat weights (no drift),reward,80.79847908745246
+R12,GLM per-rat weights (no drift),punish,86.66666666666667
+R12,GLM per-rat weights (no drift),conflict,82.12058212058211
+R13,GLM static,reward,76.04562737642586
+R13,GLM static,punish,81.47368421052632
+R13,GLM static,conflict,66.87631027253668
+R13,GLM drift (session reset),reward,83.46007604562737
+R13,GLM drift (session reset),punish,81.89473684210526
+R13,GLM drift (session reset),conflict,72.11740041928721
+R13,GLM drift (carry over days),reward,83.07984790874525
+R13,GLM drift (carry over days),punish,81.6842105263158
+R13,GLM drift (carry over days),conflict,72.95597484276729
+R13,"Q-learning, no Pavlovian (elemental; v1)",reward,76.04562737642586
+R13,"Q-learning, no Pavlovian (elemental; v1)",punish,81.26315789473684
+R13,"Q-learning, no Pavlovian (elemental; v1)",conflict,68.13417190775681
+R13,"Q-learning, no Pavlovian (configural; v1)",reward,74.52471482889734
+R13,"Q-learning, no Pavlovian (configural; v1)",punish,81.26315789473684
+R13,"Q-learning, no Pavlovian (configural; v1)",conflict,68.9727463312369
+R13,GLM per-session weights (no drift),reward,81.93916349809885
+R13,GLM per-session weights (no drift),punish,82.10526315789474
+R13,GLM per-session weights (no drift),conflict,69.18238993710692
+R13,GLM per-rat weights (no drift),reward,76.04562737642586
+R13,GLM per-rat weights (no drift),punish,81.47368421052632
+R13,GLM per-rat weights (no drift),conflict,68.34381551362684
+R14,GLM static,reward,67.87072243346007
+R14,GLM static,punish,84.58333333333333
+R14,GLM static,conflict,69.52789699570815
+R14,GLM drift (session reset),reward,87.07224334600761
+R14,GLM drift (session reset),punish,83.54166666666667
+R14,GLM drift (session reset),conflict,72.3175965665236
+R14,GLM drift (carry over days),reward,85.36121673003802
+R14,GLM drift (carry over days),punish,83.54166666666667
+R14,GLM drift (carry over days),conflict,75.10729613733905
+R14,"Q-learning, no Pavlovian (elemental; v1)",reward,67.87072243346007
+R14,"Q-learning, no Pavlovian (elemental; v1)",punish,84.58333333333333
+R14,"Q-learning, no Pavlovian (elemental; v1)",conflict,73.39055793991416
+R14,"Q-learning, no Pavlovian (configural; v1)",reward,67.30038022813687
+R14,"Q-learning, no Pavlovian (configural; v1)",punish,84.58333333333333
+R14,"Q-learning, no Pavlovian (configural; v1)",conflict,66.52360515021459
+R14,GLM per-session weights (no drift),reward,86.31178707224335
+R14,GLM per-session weights (no drift),punish,83.33333333333334
+R14,GLM per-session weights (no drift),conflict,70.81545064377683
+R14,GLM per-rat weights (no drift),reward,71.48288973384031
+R14,GLM per-rat weights (no drift),punish,83.95833333333333
+R14,GLM per-rat weights (no drift),conflict,70.81545064377683
+R15,GLM static,reward,57.25338491295938
+R15,GLM static,punish,87.73784355179704
+R15,GLM static,conflict,72.92110874200426
+R15,GLM drift (session reset),reward,83.9458413926499
+R15,GLM drift (session reset),punish,85.62367864693447
+R15,GLM drift (session reset),conflict,81.4498933901919
+R15,GLM drift (carry over days),reward,83.36557059961315
+R15,GLM drift (carry over days),punish,86.4693446088795
+R15,GLM drift (carry over days),conflict,82.08955223880598
+R15,"Q-learning, no Pavlovian (elemental; v1)",reward,57.25338491295938
+R15,"Q-learning, no Pavlovian (elemental; v1)",punish,87.31501057082453
+R15,"Q-learning, no Pavlovian (elemental; v1)",conflict,69.7228144989339
+R15,"Q-learning, no Pavlovian (configural; v1)",reward,56.09284332688588
+R15,"Q-learning, no Pavlovian (configural; v1)",punish,87.73784355179704
+R15,"Q-learning, no Pavlovian (configural; v1)",conflict,37.52665245202559
+R15,GLM per-session weights (no drift),reward,83.752417794971
+R15,GLM per-session weights (no drift),punish,85.41226215644821
+R15,GLM per-session weights (no drift),conflict,78.46481876332622
+R15,GLM per-rat weights (no drift),reward,74.08123791102514
+R15,GLM per-rat weights (no drift),punish,85.62367864693447
+R15,GLM per-rat weights (no drift),conflict,73.34754797441366
+R16,GLM static,reward,99.42748091603052
+R16,GLM static,punish,61.39240506329114
+R16,GLM static,conflict,63.74999999999999
+R16,GLM drift (session reset),reward,99.42748091603052
+R16,GLM drift (session reset),punish,80.37974683544303
+R16,GLM drift (session reset),conflict,80.83333333333333
+R16,GLM drift (carry over days),reward,99.42748091603052
+R16,GLM drift (carry over days),punish,81.43459915611815
+R16,GLM drift (carry over days),conflict,83.54166666666667
+R16,"Q-learning, no Pavlovian (elemental; v1)",reward,99.42748091603052
+R16,"Q-learning, no Pavlovian (elemental; v1)",punish,61.39240506329114
+R16,"Q-learning, no Pavlovian (elemental; v1)",conflict,71.875
+R16,"Q-learning, no Pavlovian (configural; v1)",reward,97.51908396946564
+R16,"Q-learning, no Pavlovian (configural; v1)",punish,73.41772151898735
+R16,"Q-learning, no Pavlovian (configural; v1)",conflict,84.375
+R16,GLM per-session weights (no drift),reward,99.42748091603052
+R16,GLM per-session weights (no drift),punish,80.16877637130801
+R16,GLM per-session weights (no drift),conflict,80.41666666666667
+R16,GLM per-rat weights (no drift),reward,99.42748091603052
+R16,GLM per-rat weights (no drift),punish,69.83122362869199
+R16,GLM per-rat weights (no drift),conflict,73.33333333333333
+R17,GLM static,reward,67.86389413988658
+R17,GLM static,punish,93.80165289256198
+R17,GLM static,conflict,62.83367556468173
+R17,GLM drift (session reset),reward,71.83364839319471
+R17,GLM drift (session reset),punish,92.76859504132231
+R17,GLM drift (session reset),conflict,64.27104722792608
+R17,GLM drift (carry over days),reward,71.45557655954632
+R17,GLM drift (carry over days),punish,93.38842975206612
+R17,GLM drift (carry over days),conflict,64.68172484599589
+R17,"Q-learning, no Pavlovian (elemental; v1)",reward,67.86389413988658
+R17,"Q-learning, no Pavlovian (elemental; v1)",punish,93.80165289256198
+R17,"Q-learning, no Pavlovian (elemental; v1)",conflict,64.47638603696099
+R17,"Q-learning, no Pavlovian (configural; v1)",reward,67.86389413988658
+R17,"Q-learning, no Pavlovian (configural; v1)",punish,93.80165289256198
+R17,"Q-learning, no Pavlovian (configural; v1)",conflict,59.75359342915812
+R17,GLM per-session weights (no drift),reward,70.88846880907373
+R17,GLM per-session weights (no drift),punish,92.97520661157024
+R17,GLM per-session weights (no drift),conflict,60.78028747433265
+R17,GLM per-rat weights (no drift),reward,68.43100189035917
+R17,GLM per-rat weights (no drift),punish,93.59504132231406
+R17,GLM per-rat weights (no drift),conflict,61.80698151950719
+R18,GLM static,reward,66.79536679536679
+R18,GLM static,punish,73.15010570824523
+R18,GLM static,conflict,78.78151260504201
+R18,GLM drift (session reset),reward,89.57528957528957
+R18,GLM drift (session reset),punish,87.52642706131078
+R18,GLM drift (session reset),conflict,83.40336134453781
+R18,GLM drift (carry over days),reward,90.73359073359072
+R18,GLM drift (carry over days),punish,86.4693446088795
+R18,GLM drift (carry over days),conflict,81.72268907563026
+R18,"Q-learning, no Pavlovian (elemental; v1)",reward,66.79536679536679
+R18,"Q-learning, no Pavlovian (elemental; v1)",punish,73.15010570824523
+R18,"Q-learning, no Pavlovian (elemental; v1)",conflict,73.10924369747899
+R18,"Q-learning, no Pavlovian (configural; v1)",reward,66.79536679536679
+R18,"Q-learning, no Pavlovian (configural; v1)",punish,73.99577167019028
+R18,"Q-learning, no Pavlovian (configural; v1)",conflict,78.99159663865547
+R18,GLM per-session weights (no drift),reward,87.83783783783784
+R18,GLM per-session weights (no drift),punish,84.56659619450318
+R18,GLM per-session weights (no drift),conflict,82.56302521008404
+R18,GLM per-rat weights (no drift),reward,77.41312741312741
+R18,GLM per-rat weights (no drift),punish,74.20718816067652
+R18,GLM per-rat weights (no drift),conflict,80.46218487394958
+R19,GLM static,reward,82.41965973534971
+R19,GLM static,punish,97.1252566735113
+R19,GLM static,conflict,57.11340206185567
+R19,GLM drift (session reset),reward,88.65784499054821
+R19,GLM drift (session reset),punish,95.07186858316224
+R19,GLM drift (session reset),conflict,66.8041237113402
+R19,GLM drift (carry over days),reward,88.65784499054821
+R19,GLM drift (carry over days),punish,97.1252566735113
+R19,GLM drift (carry over days),conflict,68.45360824742268
+R19,"Q-learning, no Pavlovian (elemental; v1)",reward,83.93194706994329
+R19,"Q-learning, no Pavlovian (elemental; v1)",punish,97.1252566735113
+R19,"Q-learning, no Pavlovian (elemental; v1)",conflict,61.64948453608248
+R19,"Q-learning, no Pavlovian (configural; v1)",reward,82.23062381852552
+R19,"Q-learning, no Pavlovian (configural; v1)",punish,97.1252566735113
+R19,"Q-learning, no Pavlovian (configural; v1)",conflict,53.402061855670105
+R19,GLM per-session weights (no drift),reward,86.01134215500946
+R19,GLM per-session weights (no drift),punish,95.07186858316224
+R19,GLM per-session weights (no drift),conflict,64.74226804123711
+R19,GLM per-rat weights (no drift),reward,83.7429111531191
+R19,GLM per-rat weights (no drift),punish,96.71457905544148
+R19,GLM per-rat weights (no drift),conflict,58.55670103092784
+R20,GLM static,reward,96.7984934086629
+R20,GLM static,punish,60.74380165289256
+R20,GLM static,conflict,66.59793814432989
+R20,GLM drift (session reset),reward,98.11676082862525
+R20,GLM drift (session reset),punish,79.54545454545455
+R20,GLM drift (session reset),conflict,78.76288659793815
+R20,GLM drift (carry over days),reward,97.74011299435028
+R20,GLM drift (carry over days),punish,79.33884297520662
+R20,GLM drift (carry over days),conflict,80.61855670103093
+R20,"Q-learning, no Pavlovian (elemental; v1)",reward,96.7984934086629
+R20,"Q-learning, no Pavlovian (elemental; v1)",punish,60.74380165289256
+R20,"Q-learning, no Pavlovian (elemental; v1)",conflict,68.45360824742268
+R20,"Q-learning, no Pavlovian (configural; v1)",reward,94.35028248587572
+R20,"Q-learning, no Pavlovian (configural; v1)",punish,77.47933884297521
+R20,"Q-learning, no Pavlovian (configural; v1)",conflict,69.48453608247422
+R20,GLM per-session weights (no drift),reward,97.17514124293784
+R20,GLM per-session weights (no drift),punish,79.75206611570248
+R20,GLM per-session weights (no drift),conflict,76.70103092783506
+R20,GLM per-rat weights (no drift),reward,96.7984934086629
+R20,GLM per-rat weights (no drift),punish,66.11570247933885
+R20,GLM per-rat weights (no drift),conflict,67.21649484536083
+R21,GLM static,reward,81.39097744360903
+R21,GLM static,punish,92.9460580912863
+R21,GLM static,conflict,61.934156378600825
+R21,GLM drift (session reset),reward,85.90225563909775
+R21,GLM drift (session reset),punish,91.90871369294604
+R21,GLM drift (session reset),conflict,67.07818930041152
+R21,GLM drift (carry over days),reward,83.83458646616542
+R21,GLM drift (carry over days),punish,92.73858921161826
+R21,GLM drift (carry over days),conflict,67.07818930041152
+R21,"Q-learning, no Pavlovian (elemental; v1)",reward,81.39097744360903
+R21,"Q-learning, no Pavlovian (elemental; v1)",punish,92.9460580912863
+R21,"Q-learning, no Pavlovian (elemental; v1)",conflict,67.07818930041152
+R21,"Q-learning, no Pavlovian (configural; v1)",reward,81.01503759398496
+R21,"Q-learning, no Pavlovian (configural; v1)",punish,92.9460580912863
+R21,"Q-learning, no Pavlovian (configural; v1)",conflict,61.11111111111112
+R21,GLM per-session weights (no drift),reward,83.64661654135338
+R21,GLM per-session weights (no drift),punish,92.11618257261412
+R21,GLM per-session weights (no drift),conflict,62.34567901234568
+R21,GLM per-rat weights (no drift),reward,80.82706766917293
+R21,GLM per-rat weights (no drift),punish,92.73858921161826
+R21,GLM per-rat weights (no drift),conflict,59.465020576131685
+R22,GLM static,reward,98.68667917448406
+R22,GLM static,punish,78.05383022774328
+R22,GLM static,conflict,58.67768595041323
+R22,GLM drift (session reset),reward,98.68667917448406
+R22,GLM drift (session reset),punish,77.63975155279503
+R22,GLM drift (session reset),conflict,64.6694214876033
+R22,GLM drift (carry over days),reward,98.68667917448406
+R22,GLM drift (carry over days),punish,77.01863354037268
+R22,GLM drift (carry over days),conflict,67.35537190082644
+R22,"Q-learning, no Pavlovian (elemental; v1)",reward,98.68667917448406
+R22,"Q-learning, no Pavlovian (elemental; v1)",punish,78.26086956521739
+R22,"Q-learning, no Pavlovian (elemental; v1)",conflict,62.39669421487604
+R22,"Q-learning, no Pavlovian (configural; v1)",reward,97.37335834896813
+R22,"Q-learning, no Pavlovian (configural; v1)",punish,77.84679089026915
+R22,"Q-learning, no Pavlovian (configural; v1)",conflict,63.84297520661158
+R22,GLM per-session weights (no drift),reward,98.68667917448406
+R22,GLM per-session weights (no drift),punish,79.08902691511386
+R22,GLM per-session weights (no drift),conflict,63.42975206611571
+R22,GLM per-rat weights (no drift),reward,98.68667917448406
+R22,GLM per-rat weights (no drift),punish,76.81159420289855
+R22,GLM per-rat weights (no drift),conflict,62.39669421487604
+R23,GLM static,reward,60.15037593984962
+R23,GLM static,punish,97.72727272727272
+R23,GLM static,conflict,67.56198347107438
+R23,GLM drift (session reset),reward,78.7593984962406
+R23,GLM drift (session reset),punish,95.45454545454544
+R23,GLM drift (session reset),conflict,71.48760330578511
+R23,GLM drift (carry over days),reward,75.37593984962406
+R23,GLM drift (carry over days),punish,97.93388429752066
+R23,GLM drift (carry over days),conflict,71.07438016528926
+R23,"Q-learning, no Pavlovian (elemental; v1)",reward,60.15037593984962
+R23,"Q-learning, no Pavlovian (elemental; v1)",punish,97.72727272727272
+R23,"Q-learning, no Pavlovian (elemental; v1)",conflict,67.56198347107438
+R23,"Q-learning, no Pavlovian (configural; v1)",reward,59.210526315789465
+R23,"Q-learning, no Pavlovian (configural; v1)",punish,97.72727272727272
+R23,"Q-learning, no Pavlovian (configural; v1)",conflict,64.0495867768595
+R23,GLM per-session weights (no drift),reward,76.69172932330827
+R23,GLM per-session weights (no drift),punish,95.66115702479338
+R23,GLM per-session weights (no drift),conflict,68.18181818181817
+R23,GLM per-rat weights (no drift),reward,67.66917293233082
+R23,GLM per-rat weights (no drift),punish,97.5206611570248
+R23,GLM per-rat weights (no drift),conflict,66.52892561983471
+R24,GLM static,reward,93.63295880149812
+R24,GLM static,punish,91.340206185567
+R24,GLM static,conflict,62.16216216216216
+R24,GLM drift (session reset),reward,94.3820224719101
+R24,GLM drift (session reset),punish,95.25773195876288
+R24,GLM drift (session reset),conflict,90.43659043659044
+R24,GLM drift (carry over days),reward,94.00749063670412
+R24,GLM drift (carry over days),punish,95.25773195876288
+R24,GLM drift (carry over days),conflict,92.93139293139292
+R24,"Q-learning, no Pavlovian (elemental; v1)",reward,93.63295880149812
+R24,"Q-learning, no Pavlovian (elemental; v1)",punish,91.340206185567
+R24,"Q-learning, no Pavlovian (elemental; v1)",conflict,69.02286902286903
+R24,"Q-learning, no Pavlovian (configural; v1)",reward,92.88389513108616
+R24,"Q-learning, no Pavlovian (configural; v1)",punish,91.340206185567
+R24,"Q-learning, no Pavlovian (configural; v1)",conflict,90.43659043659044
+R24,GLM per-session weights (no drift),reward,93.44569288389512
+R24,GLM per-session weights (no drift),punish,94.63917525773196
+R24,GLM per-session weights (no drift),conflict,89.6049896049896
+R24,GLM per-rat weights (no drift),reward,93.25842696629212
+R24,GLM per-rat weights (no drift),punish,91.1340206185567
+R24,GLM per-rat weights (no drift),conflict,90.22869022869024
+R09,GLM drift AR(1) (session reset),reward,92.42424242424242
+R09,GLM drift AR(1) (session reset),punish,97.1252566735113
+R09,GLM drift AR(1) (session reset),conflict,75.87628865979381
+R09,GLM drift AR(1) (carry over days),reward,91.47727272727272
+R09,GLM drift AR(1) (carry over days),punish,97.3305954825462
+R09,GLM drift AR(1) (carry over days),conflict,76.90721649484537
+R09,Q-learning + Pavlovian (elemental),reward,89.20454545454545
+R09,Q-learning + Pavlovian (elemental),punish,97.5359342915811
+R09,Q-learning + Pavlovian (elemental),conflict,76.08247422680412
+R09,Q-learning + Pavlovian (configural),reward,91.28787878787878
+R09,Q-learning + Pavlovian (configural),punish,97.5359342915811
+R09,Q-learning + Pavlovian (configural),conflict,75.6701030927835
+R09,"Q-learning + Pavlovian (elemental, per rat)",reward,87.87878787878788
+R09,"Q-learning + Pavlovian (elemental, per rat)",punish,97.5359342915811
+R09,"Q-learning + Pavlovian (elemental, per rat)",conflict,75.4639175257732
+R09,"Q-learning + Pavlovian (configural, per rat)",reward,91.8560606060606
+R09,"Q-learning + Pavlovian (configural, per rat)",punish,97.5359342915811
+R09,"Q-learning + Pavlovian (configural, per rat)",conflict,78.14432989690722
+R10,GLM drift AR(1) (session reset),reward,94.33962264150944
+R10,GLM drift AR(1) (session reset),punish,89.50617283950618
+R10,GLM drift AR(1) (session reset),conflict,78.92561983471074
+R10,GLM drift AR(1) (carry over days),reward,93.9622641509434
+R10,GLM drift AR(1) (carry over days),punish,89.50617283950618
+R10,GLM drift AR(1) (carry over days),conflict,81.40495867768594
+R10,Q-learning + Pavlovian (elemental),reward,93.20754716981132
+R10,Q-learning + Pavlovian (elemental),punish,88.88888888888889
+R10,Q-learning + Pavlovian (elemental),conflict,81.40495867768594
+R10,Q-learning + Pavlovian (configural),reward,93.9622641509434
+R10,Q-learning + Pavlovian (configural),punish,89.30041152263375
+R10,Q-learning + Pavlovian (configural),conflict,80.99173553719008
+R10,"Q-learning + Pavlovian (elemental, per rat)",reward,93.20754716981132
+R10,"Q-learning + Pavlovian (elemental, per rat)",punish,87.44855967078189
+R10,"Q-learning + Pavlovian (elemental, per rat)",conflict,80.78512396694215
+R10,"Q-learning + Pavlovian (configural, per rat)",reward,93.7735849056604
+R10,"Q-learning + Pavlovian (configural, per rat)",punish,89.09465020576131
+R10,"Q-learning + Pavlovian (configural, per rat)",conflict,82.85123966942149
+R11,GLM drift AR(1) (session reset),reward,77.6173285198556
+R11,GLM drift AR(1) (session reset),punish,97.63779527559056
+R11,GLM drift AR(1) (session reset),conflict,77.86561264822134
+R11,GLM drift AR(1) (carry over days),reward,79.42238267148014
+R11,GLM drift AR(1) (carry over days),punish,97.63779527559056
+R11,GLM drift AR(1) (carry over days),conflict,77.86561264822134
+R11,Q-learning + Pavlovian (elemental),reward,60.28880866425993
+R11,Q-learning + Pavlovian (elemental),punish,97.63779527559056
+R11,Q-learning + Pavlovian (elemental),conflict,77.4703557312253
+R11,Q-learning + Pavlovian (configural),reward,79.06137184115524
+R11,Q-learning + Pavlovian (configural),punish,97.24409448818898
+R11,Q-learning + Pavlovian (configural),conflict,75.09881422924902
+R11,"Q-learning + Pavlovian (elemental, per rat)",reward,79.78339350180505
+R11,"Q-learning + Pavlovian (elemental, per rat)",punish,97.24409448818898
+R11,"Q-learning + Pavlovian (elemental, per rat)",conflict,76.28458498023716
+R11,"Q-learning + Pavlovian (configural, per rat)",reward,80.14440433212997
+R11,"Q-learning + Pavlovian (configural, per rat)",punish,97.63779527559056
+R11,"Q-learning + Pavlovian (configural, per rat)",conflict,78.26086956521739
+R12,GLM drift AR(1) (session reset),reward,85.17110266159695
+R12,GLM drift AR(1) (session reset),punish,88.75
+R12,GLM drift AR(1) (session reset),conflict,80.04158004158003
+R12,GLM drift AR(1) (carry over days),reward,84.22053231939164
+R12,GLM drift AR(1) (carry over days),punish,88.75
+R12,GLM drift AR(1) (carry over days),conflict,81.91268191268192
+R12,Q-learning + Pavlovian (elemental),reward,83.26996197718631
+R12,Q-learning + Pavlovian (elemental),punish,86.66666666666667
+R12,Q-learning + Pavlovian (elemental),conflict,81.08108108108108
+R12,Q-learning + Pavlovian (configural),reward,84.22053231939164
+R12,Q-learning + Pavlovian (configural),punish,86.66666666666667
+R12,Q-learning + Pavlovian (configural),conflict,84.40748440748442
+R12,"Q-learning + Pavlovian (elemental, per rat)",reward,80.22813688212928
+R12,"Q-learning + Pavlovian (elemental, per rat)",punish,86.875
+R12,"Q-learning + Pavlovian (elemental, per rat)",conflict,81.08108108108108
+R12,"Q-learning + Pavlovian (configural, per rat)",reward,84.03041825095056
+R12,"Q-learning + Pavlovian (configural, per rat)",punish,86.66666666666667
+R12,"Q-learning + Pavlovian (configural, per rat)",conflict,85.03118503118503
+R13,GLM drift AR(1) (session reset),reward,84.22053231939164
+R13,GLM drift AR(1) (session reset),punish,80.63157894736842
+R13,GLM drift AR(1) (session reset),conflict,72.95597484276729
+R13,GLM drift AR(1) (carry over days),reward,83.46007604562737
+R13,GLM drift AR(1) (carry over days),punish,81.05263157894737
+R13,GLM drift AR(1) (carry over days),conflict,73.58490566037736
+R13,Q-learning + Pavlovian (elemental),reward,77.9467680608365
+R13,Q-learning + Pavlovian (elemental),punish,81.47368421052632
+R13,Q-learning + Pavlovian (elemental),conflict,73.79454926624737
+R13,Q-learning + Pavlovian (configural),reward,84.22053231939164
+R13,Q-learning + Pavlovian (configural),punish,81.6842105263158
+R13,Q-learning + Pavlovian (configural),conflict,72.95597484276729
+R13,"Q-learning + Pavlovian (elemental, per rat)",reward,83.26996197718631
+R13,"Q-learning + Pavlovian (elemental, per rat)",punish,81.26315789473684
+R13,"Q-learning + Pavlovian (elemental, per rat)",conflict,72.74633123689728
+R13,"Q-learning + Pavlovian (configural, per rat)",reward,84.9809885931559
+R13,"Q-learning + Pavlovian (configural, per rat)",punish,81.6842105263158
+R13,"Q-learning + Pavlovian (configural, per rat)",conflict,71.9077568134172
+R14,GLM drift AR(1) (session reset),reward,87.6425855513308
+R14,GLM drift AR(1) (session reset),punish,83.54166666666667
+R14,GLM drift AR(1) (session reset),conflict,72.3175965665236
+R14,GLM drift AR(1) (carry over days),reward,85.93155893536122
+R14,GLM drift AR(1) (carry over days),punish,83.75
+R14,GLM drift AR(1) (carry over days),conflict,74.67811158798283
+R14,Q-learning + Pavlovian (elemental),reward,67.87072243346007
+R14,Q-learning + Pavlovian (elemental),punish,84.58333333333333
+R14,Q-learning + Pavlovian (elemental),conflict,73.60515021459227
+R14,Q-learning + Pavlovian (configural),reward,86.50190114068441
+R14,Q-learning + Pavlovian (configural),punish,84.375
+R14,Q-learning + Pavlovian (configural),conflict,75.10729613733905
+R14,"Q-learning + Pavlovian (elemental, per rat)",reward,83.46007604562737
+R14,"Q-learning + Pavlovian (elemental, per rat)",punish,84.58333333333333
+R14,"Q-learning + Pavlovian (elemental, per rat)",conflict,73.60515021459227
+R14,"Q-learning + Pavlovian (configural, per rat)",reward,85.74144486692015
+R14,"Q-learning + Pavlovian (configural, per rat)",punish,84.58333333333333
+R14,"Q-learning + Pavlovian (configural, per rat)",conflict,75.32188841201717
+R15,GLM drift AR(1) (session reset),reward,82.59187620889749
+R15,GLM drift AR(1) (session reset),punish,86.25792811839324
+R15,GLM drift AR(1) (session reset),conflict,81.6631130063966
+R15,GLM drift AR(1) (carry over days),reward,82.39845261121856
+R15,GLM drift AR(1) (carry over days),punish,86.04651162790698
+R15,GLM drift AR(1) (carry over days),conflict,82.51599147121536
+R15,Q-learning + Pavlovian (elemental),reward,57.25338491295938
+R15,Q-learning + Pavlovian (elemental),punish,87.73784355179704
+R15,Q-learning + Pavlovian (elemental),conflict,77.82515991471215
+R15,Q-learning + Pavlovian (configural),reward,82.97872340425532
+R15,Q-learning + Pavlovian (configural),punish,87.73784355179704
+R15,Q-learning + Pavlovian (configural),conflict,77.18550106609808
+R15,"Q-learning + Pavlovian (elemental, per rat)",reward,82.7852998065764
+R15,"Q-learning + Pavlovian (elemental, per rat)",punish,87.73784355179704
+R15,"Q-learning + Pavlovian (elemental, per rat)",conflict,81.02345415778251
+R15,"Q-learning + Pavlovian (configural, per rat)",reward,82.01160541586073
+R15,"Q-learning + Pavlovian (configural, per rat)",punish,86.89217758985201
+R15,"Q-learning + Pavlovian (configural, per rat)",conflict,77.82515991471215
+R16,GLM drift AR(1) (session reset),reward,99.42748091603052
+R16,GLM drift AR(1) (session reset),punish,81.22362869198312
+R16,GLM drift AR(1) (session reset),conflict,80.625
+R16,GLM drift AR(1) (carry over days),reward,99.42748091603052
+R16,GLM drift AR(1) (carry over days),punish,82.27848101265823
+R16,GLM drift AR(1) (carry over days),conflict,82.08333333333333
+R16,Q-learning + Pavlovian (elemental),reward,99.42748091603052
+R16,Q-learning + Pavlovian (elemental),punish,61.39240506329114
+R16,Q-learning + Pavlovian (elemental),conflict,83.95833333333333
+R16,Q-learning + Pavlovian (configural),reward,99.42748091603052
+R16,Q-learning + Pavlovian (configural),punish,61.39240506329114
+R16,Q-learning + Pavlovian (configural),conflict,85.83333333333333
+R16,"Q-learning + Pavlovian (elemental, per rat)",reward,99.42748091603052
+R16,"Q-learning + Pavlovian (elemental, per rat)",punish,79.53586497890295
+R16,"Q-learning + Pavlovian (elemental, per rat)",conflict,82.5
+R16,"Q-learning + Pavlovian (configural, per rat)",reward,99.23664122137404
+R16,"Q-learning + Pavlovian (configural, per rat)",punish,80.16877637130801
+R16,"Q-learning + Pavlovian (configural, per rat)",conflict,84.79166666666667
+R17,GLM drift AR(1) (session reset),reward,72.2117202268431
+R17,GLM drift AR(1) (session reset),punish,93.18181818181816
+R17,GLM drift AR(1) (session reset),conflict,64.47638603696099
+R17,GLM drift AR(1) (carry over days),reward,72.0226843100189
+R17,GLM drift AR(1) (carry over days),punish,93.18181818181816
+R17,GLM drift AR(1) (carry over days),conflict,65.09240246406571
+R17,Q-learning + Pavlovian (elemental),reward,69.94328922495274
+R17,Q-learning + Pavlovian (elemental),punish,93.80165289256198
+R17,Q-learning + Pavlovian (elemental),conflict,62.217659137577
+R17,Q-learning + Pavlovian (configural),reward,71.45557655954632
+R17,Q-learning + Pavlovian (configural),punish,93.80165289256198
+R17,Q-learning + Pavlovian (configural),conflict,64.06570841889116
+R17,"Q-learning + Pavlovian (elemental, per rat)",reward,71.26654064272212
+R17,"Q-learning + Pavlovian (elemental, per rat)",punish,93.38842975206612
+R17,"Q-learning + Pavlovian (elemental, per rat)",conflict,67.14579055441479
+R17,"Q-learning + Pavlovian (configural, per rat)",reward,72.96786389413988
+R17,"Q-learning + Pavlovian (configural, per rat)",punish,93.80165289256198
+R17,"Q-learning + Pavlovian (configural, per rat)",conflict,66.52977412731006
+R18,GLM drift AR(1) (session reset),reward,89.57528957528957
+R18,GLM drift AR(1) (session reset),punish,86.68076109936575
+R18,GLM drift AR(1) (session reset),conflict,82.98319327731093
+R18,GLM drift AR(1) (carry over days),reward,90.15444015444017
+R18,GLM drift AR(1) (carry over days),punish,87.10359408033827
+R18,GLM drift AR(1) (carry over days),conflict,82.56302521008404
+R18,Q-learning + Pavlovian (elemental),reward,77.41312741312741
+R18,Q-learning + Pavlovian (elemental),punish,76.10993657505286
+R18,Q-learning + Pavlovian (elemental),conflict,82.77310924369748
+R18,Q-learning + Pavlovian (configural),reward,89.1891891891892
+R18,Q-learning + Pavlovian (configural),punish,73.36152219873149
+R18,Q-learning + Pavlovian (configural),conflict,84.24369747899159
+R18,"Q-learning + Pavlovian (elemental, per rat)",reward,89.1891891891892
+R18,"Q-learning + Pavlovian (elemental, per rat)",punish,79.70401691331924
+R18,"Q-learning + Pavlovian (elemental, per rat)",conflict,82.98319327731093
+R18,"Q-learning + Pavlovian (configural, per rat)",reward,89.57528957528957
+R18,"Q-learning + Pavlovian (configural, per rat)",punish,77.80126849894292
+R18,"Q-learning + Pavlovian (configural, per rat)",conflict,82.14285714285714
+R19,GLM drift AR(1) (session reset),reward,88.84688090737241
+R19,GLM drift AR(1) (session reset),punish,96.50924024640656
+R19,GLM drift AR(1) (session reset),conflict,65.97938144329896
+R19,GLM drift AR(1) (carry over days),reward,89.413988657845
+R19,GLM drift AR(1) (carry over days),punish,97.1252566735113
+R19,GLM drift AR(1) (carry over days),conflict,68.45360824742268
+R19,Q-learning + Pavlovian (elemental),reward,83.7429111531191
+R19,Q-learning + Pavlovian (elemental),punish,95.89322381930184
+R19,Q-learning + Pavlovian (elemental),conflict,66.39175257731958
+R19,Q-learning + Pavlovian (configural),reward,88.09073724007561
+R19,Q-learning + Pavlovian (configural),punish,97.1252566735113
+R19,Q-learning + Pavlovian (configural),conflict,65.15463917525773
+R19,"Q-learning + Pavlovian (elemental, per rat)",reward,86.76748582230623
+R19,"Q-learning + Pavlovian (elemental, per rat)",punish,97.1252566735113
+R19,"Q-learning + Pavlovian (elemental, per rat)",conflict,69.89690721649484
+R19,"Q-learning + Pavlovian (configural, per rat)",reward,88.468809073724
+R19,"Q-learning + Pavlovian (configural, per rat)",punish,97.1252566735113
+R19,"Q-learning + Pavlovian (configural, per rat)",conflict,68.45360824742268
+R20,GLM drift AR(1) (session reset),reward,97.92843691148776
+R20,GLM drift AR(1) (session reset),punish,80.78512396694215
+R20,GLM drift AR(1) (session reset),conflict,78.96907216494846
+R20,GLM drift AR(1) (carry over days),reward,97.74011299435028
+R20,GLM drift AR(1) (carry over days),punish,80.78512396694215
+R20,GLM drift AR(1) (carry over days),conflict,80.82474226804123
+R20,Q-learning + Pavlovian (elemental),reward,96.98681732580036
+R20,Q-learning + Pavlovian (elemental),punish,60.74380165289256
+R20,Q-learning + Pavlovian (elemental),conflict,73.4020618556701
+R20,Q-learning + Pavlovian (configural),reward,97.74011299435028
+R20,Q-learning + Pavlovian (configural),punish,60.53719008264464
+R20,Q-learning + Pavlovian (configural),conflict,81.64948453608247
+R20,"Q-learning + Pavlovian (elemental, per rat)",reward,96.7984934086629
+R20,"Q-learning + Pavlovian (elemental, per rat)",punish,78.71900826446281
+R20,"Q-learning + Pavlovian (elemental, per rat)",conflict,77.7319587628866
+R20,"Q-learning + Pavlovian (configural, per rat)",reward,97.74011299435028
+R20,"Q-learning + Pavlovian (configural, per rat)",punish,66.11570247933885
+R20,"Q-learning + Pavlovian (configural, per rat)",conflict,80.20618556701031
+R21,GLM drift AR(1) (session reset),reward,84.77443609022556
+R21,GLM drift AR(1) (session reset),punish,91.49377593360995
+R21,GLM drift AR(1) (session reset),conflict,67.90123456790124
+R21,GLM drift AR(1) (carry over days),reward,84.77443609022556
+R21,GLM drift AR(1) (carry over days),punish,92.5311203319502
+R21,GLM drift AR(1) (carry over days),conflict,68.10699588477365
+R21,Q-learning + Pavlovian (elemental),reward,82.33082706766918
+R21,Q-learning + Pavlovian (elemental),punish,92.9460580912863
+R21,Q-learning + Pavlovian (elemental),conflict,62.96296296296296
+R21,Q-learning + Pavlovian (configural),reward,84.3984962406015
+R21,Q-learning + Pavlovian (configural),punish,93.15352697095436
+R21,Q-learning + Pavlovian (configural),conflict,63.78600823045267
+R21,"Q-learning + Pavlovian (elemental, per rat)",reward,81.39097744360903
+R21,"Q-learning + Pavlovian (elemental, per rat)",punish,92.9460580912863
+R21,"Q-learning + Pavlovian (elemental, per rat)",conflict,64.40329218106996
+R21,"Q-learning + Pavlovian (configural, per rat)",reward,84.58646616541353
+R21,"Q-learning + Pavlovian (configural, per rat)",punish,92.9460580912863
+R21,"Q-learning + Pavlovian (configural, per rat)",conflict,65.22633744855966
+R22,GLM drift AR(1) (session reset),reward,98.68667917448406
+R22,GLM drift AR(1) (session reset),punish,78.4679089026915
+R22,GLM drift AR(1) (session reset),conflict,63.63636363636363
+R22,GLM drift AR(1) (carry over days),reward,98.68667917448406
+R22,GLM drift AR(1) (carry over days),punish,77.63975155279503
+R22,GLM drift AR(1) (carry over days),conflict,66.73553719008265
+R22,Q-learning + Pavlovian (elemental),reward,98.68667917448406
+R22,Q-learning + Pavlovian (elemental),punish,78.05383022774328
+R22,Q-learning + Pavlovian (elemental),conflict,62.603305785123965
+R22,Q-learning + Pavlovian (configural),reward,98.68667917448406
+R22,Q-learning + Pavlovian (configural),punish,77.84679089026915
+R22,Q-learning + Pavlovian (configural),conflict,66.11570247933885
+R22,"Q-learning + Pavlovian (elemental, per rat)",reward,98.68667917448406
+R22,"Q-learning + Pavlovian (elemental, per rat)",punish,77.22567287784679
+R22,"Q-learning + Pavlovian (elemental, per rat)",conflict,63.63636363636363
+R22,"Q-learning + Pavlovian (configural, per rat)",reward,98.68667917448406
+R22,"Q-learning + Pavlovian (configural, per rat)",punish,78.05383022774328
+R22,"Q-learning + Pavlovian (configural, per rat)",conflict,68.38842975206612
+R23,GLM drift AR(1) (session reset),reward,77.44360902255639
+R23,GLM drift AR(1) (session reset),punish,97.10743801652892
+R23,GLM drift AR(1) (session reset),conflict,70.45454545454545
+R23,GLM drift AR(1) (carry over days),reward,75.75187969924812
+R23,GLM drift AR(1) (carry over days),punish,97.72727272727272
+R23,GLM drift AR(1) (carry over days),conflict,70.86776859504133
+R23,Q-learning + Pavlovian (elemental),reward,59.9624060150376
+R23,Q-learning + Pavlovian (elemental),punish,97.72727272727272
+R23,Q-learning + Pavlovian (elemental),conflict,68.59504132231406
+R23,Q-learning + Pavlovian (configural),reward,75.56390977443608
+R23,Q-learning + Pavlovian (configural),punish,97.93388429752066
+R23,Q-learning + Pavlovian (configural),conflict,67.97520661157024
+R23,"Q-learning + Pavlovian (elemental, per rat)",reward,75.37593984962406
+R23,"Q-learning + Pavlovian (elemental, per rat)",punish,97.72727272727272
+R23,"Q-learning + Pavlovian (elemental, per rat)",conflict,70.45454545454545
+R23,"Q-learning + Pavlovian (configural, per rat)",reward,78.38345864661655
+R23,"Q-learning + Pavlovian (configural, per rat)",punish,97.72727272727272
+R23,"Q-learning + Pavlovian (configural, per rat)",conflict,69.83471074380165
+R24,GLM drift AR(1) (session reset),reward,94.19475655430712
+R24,GLM drift AR(1) (session reset),punish,95.05154639175257
+R24,GLM drift AR(1) (session reset),conflict,90.64449064449065
+R24,GLM drift AR(1) (carry over days),reward,94.19475655430712
+R24,GLM drift AR(1) (carry over days),punish,95.6701030927835
+R24,GLM drift AR(1) (carry over days),conflict,92.51559251559252
+R24,Q-learning + Pavlovian (elemental),reward,93.63295880149812
+R24,Q-learning + Pavlovian (elemental),punish,91.340206185567
+R24,Q-learning + Pavlovian (elemental),conflict,91.8918918918919
+R24,Q-learning + Pavlovian (configural),reward,94.19475655430712
+R24,Q-learning + Pavlovian (configural),punish,91.1340206185567
+R24,Q-learning + Pavlovian (configural),conflict,92.3076923076923
+R24,"Q-learning + Pavlovian (elemental, per rat)",reward,93.07116104868916
+R24,"Q-learning + Pavlovian (elemental, per rat)",punish,90.51546391752578
+R24,"Q-learning + Pavlovian (elemental, per rat)",conflict,90.85239085239084
+R24,"Q-learning + Pavlovian (configural, per rat)",reward,93.63295880149812
+R24,"Q-learning + Pavlovian (configural, per rat)",punish,88.65979381443299
+R24,"Q-learning + Pavlovian (configural, per rat)",conflict,90.22869022869024
+R09,3-state GLM-HMM (re-fit here),reward,92.99242424242424
+R09,3-state GLM-HMM (re-fit here),punish,96.50924024640656
+R09,3-state GLM-HMM (re-fit here),conflict,73.81443298969073
+R09,"3-state GLM-HMM, outcome-driven transitions",reward,92.99242424242424
+R09,"3-state GLM-HMM, outcome-driven transitions",punish,96.50924024640656
+R09,"3-state GLM-HMM, outcome-driven transitions",conflict,75.87628865979381
+R10,3-state GLM-HMM (re-fit here),reward,94.33962264150944
+R10,3-state GLM-HMM (re-fit here),punish,88.88888888888889
+R10,3-state GLM-HMM (re-fit here),conflict,78.92561983471074
+R10,"3-state GLM-HMM, outcome-driven transitions",reward,94.33962264150944
+R10,"3-state GLM-HMM, outcome-driven transitions",punish,88.68312757201646
+R10,"3-state GLM-HMM, outcome-driven transitions",conflict,81.61157024793388
+R11,3-state GLM-HMM (re-fit here),reward,77.6173285198556
+R11,3-state GLM-HMM (re-fit here),punish,97.24409448818898
+R11,3-state GLM-HMM (re-fit here),conflict,78.26086956521739
+R11,"3-state GLM-HMM, outcome-driven transitions",reward,77.9783393501805
+R11,"3-state GLM-HMM, outcome-driven transitions",punish,97.24409448818898
+R11,"3-state GLM-HMM, outcome-driven transitions",conflict,77.86561264822134
+R12,3-state GLM-HMM (re-fit here),reward,84.79087452471484
+R12,3-state GLM-HMM (re-fit here),punish,87.5
+R12,3-state GLM-HMM (re-fit here),conflict,80.04158004158003
+R12,"3-state GLM-HMM, outcome-driven transitions",reward,85.17110266159695
+R12,"3-state GLM-HMM, outcome-driven transitions",punish,87.29166666666667
+R12,"3-state GLM-HMM, outcome-driven transitions",conflict,80.24948024948026
+R13,3-state GLM-HMM (re-fit here),reward,85.36121673003802
+R13,3-state GLM-HMM (re-fit here),punish,81.6842105263158
+R13,3-state GLM-HMM (re-fit here),conflict,71.0691823899371
+R13,"3-state GLM-HMM, outcome-driven transitions",reward,85.36121673003802
+R13,"3-state GLM-HMM, outcome-driven transitions",punish,81.05263157894737
+R13,"3-state GLM-HMM, outcome-driven transitions",conflict,70.85953878406708
+R14,3-state GLM-HMM (re-fit here),reward,85.17110266159695
+R14,3-state GLM-HMM (re-fit here),punish,84.58333333333333
+R14,3-state GLM-HMM (re-fit here),conflict,70.81545064377683
+R14,"3-state GLM-HMM, outcome-driven transitions",reward,85.55133079847909
+R14,"3-state GLM-HMM, outcome-driven transitions",punish,84.79166666666667
+R14,"3-state GLM-HMM, outcome-driven transitions",conflict,72.3175965665236
+R15,3-state GLM-HMM (re-fit here),reward,79.88394584139265
+R15,3-state GLM-HMM (re-fit here),punish,87.31501057082453
+R15,3-state GLM-HMM (re-fit here),conflict,78.03837953091684
+R15,"3-state GLM-HMM, outcome-driven transitions",reward,79.88394584139265
+R15,"3-state GLM-HMM, outcome-driven transitions",punish,87.10359408033827
+R15,"3-state GLM-HMM, outcome-driven transitions",conflict,77.39872068230277
+R16,3-state GLM-HMM (re-fit here),reward,98.2824427480916
+R16,3-state GLM-HMM (re-fit here),punish,79.11392405063292
+R16,3-state GLM-HMM (re-fit here),conflict,81.875
+R16,"3-state GLM-HMM, outcome-driven transitions",reward,99.04580152671755
+R16,"3-state GLM-HMM, outcome-driven transitions",punish,78.69198312236287
+R16,"3-state GLM-HMM, outcome-driven transitions",conflict,81.25
+R17,3-state GLM-HMM (re-fit here),reward,73.34593572778829
+R17,3-state GLM-HMM (re-fit here),punish,92.76859504132231
+R17,3-state GLM-HMM (re-fit here),conflict,63.86036960985626
+R17,"3-state GLM-HMM, outcome-driven transitions",reward,72.5897920604915
+R17,"3-state GLM-HMM, outcome-driven transitions",punish,92.76859504132231
+R17,"3-state GLM-HMM, outcome-driven transitions",conflict,63.244353182751546
+R18,3-state GLM-HMM (re-fit here),reward,90.92664092664091
+R18,3-state GLM-HMM (re-fit here),punish,85.83509513742071
+R18,3-state GLM-HMM (re-fit here),conflict,80.88235294117648
+R18,"3-state GLM-HMM, outcome-driven transitions",reward,91.31274131274132
+R18,"3-state GLM-HMM, outcome-driven transitions",punish,86.25792811839324
+R18,"3-state GLM-HMM, outcome-driven transitions",conflict,80.25210084033614
+R19,3-state GLM-HMM (re-fit here),reward,87.90170132325142
+R19,3-state GLM-HMM (re-fit here),punish,95.68788501026694
+R19,3-state GLM-HMM (re-fit here),conflict,68.24742268041237
+R19,"3-state GLM-HMM, outcome-driven transitions",reward,88.27977315689981
+R19,"3-state GLM-HMM, outcome-driven transitions",punish,95.89322381930184
+R19,"3-state GLM-HMM, outcome-driven transitions",conflict,67.0103092783505
+R20,3-state GLM-HMM (re-fit here),reward,97.74011299435028
+R20,3-state GLM-HMM (re-fit here),punish,78.71900826446281
+R20,3-state GLM-HMM (re-fit here),conflict,78.96907216494846
+R20,"3-state GLM-HMM, outcome-driven transitions",reward,98.11676082862525
+R20,"3-state GLM-HMM, outcome-driven transitions",punish,77.68595041322314
+R20,"3-state GLM-HMM, outcome-driven transitions",conflict,79.38144329896907
+R21,3-state GLM-HMM (re-fit here),reward,85.15037593984962
+R21,3-state GLM-HMM (re-fit here),punish,91.07883817427386
+R21,3-state GLM-HMM (re-fit here),conflict,63.78600823045267
+R21,"3-state GLM-HMM, outcome-driven transitions",reward,85.33834586466166
+R21,"3-state GLM-HMM, outcome-driven transitions",punish,91.07883817427386
+R21,"3-state GLM-HMM, outcome-driven transitions",conflict,64.81481481481481
+R22,3-state GLM-HMM (re-fit here),reward,97.74859287054409
+R22,3-state GLM-HMM (re-fit here),punish,77.4327122153209
+R22,3-state GLM-HMM (re-fit here),conflict,64.0495867768595
+R22,"3-state GLM-HMM, outcome-driven transitions",reward,98.12382739212008
+R22,"3-state GLM-HMM, outcome-driven transitions",punish,77.4327122153209
+R22,"3-state GLM-HMM, outcome-driven transitions",conflict,65.49586776859503
+R23,3-state GLM-HMM (re-fit here),reward,80.45112781954887
+R23,3-state GLM-HMM (re-fit here),punish,96.900826446281
+R23,3-state GLM-HMM (re-fit here),conflict,68.38842975206612
+R23,"3-state GLM-HMM, outcome-driven transitions",reward,78.7593984962406
+R23,"3-state GLM-HMM, outcome-driven transitions",punish,97.31404958677686
+R23,"3-state GLM-HMM, outcome-driven transitions",conflict,72.72727272727273
+R24,3-state GLM-HMM (re-fit here),reward,93.82022471910112
+R24,3-state GLM-HMM (re-fit here),punish,94.43298969072164
+R24,3-state GLM-HMM (re-fit here),conflict,90.64449064449065
+R24,"3-state GLM-HMM, outcome-driven transitions",reward,94.19475655430712
+R24,"3-state GLM-HMM, outcome-driven transitions",punish,94.22680412371132
+R24,"3-state GLM-HMM, outcome-driven transitions",conflict,90.02079002079002
+R09,3-state GLM-HMM + conflict-outcome traces,reward,92.8030303030303
+R09,3-state GLM-HMM + conflict-outcome traces,punish,97.3305954825462
+R09,3-state GLM-HMM + conflict-outcome traces,conflict,76.08247422680412
+R10,3-state GLM-HMM + conflict-outcome traces,reward,93.9622641509434
+R10,3-state GLM-HMM + conflict-outcome traces,punish,89.91769547325103
+R10,3-state GLM-HMM + conflict-outcome traces,conflict,82.85123966942149
+R11,3-state GLM-HMM + conflict-outcome traces,reward,77.25631768953069
+R11,3-state GLM-HMM + conflict-outcome traces,punish,97.24409448818898
+R11,3-state GLM-HMM + conflict-outcome traces,conflict,76.6798418972332
+R12,3-state GLM-HMM + conflict-outcome traces,reward,84.03041825095056
+R12,3-state GLM-HMM + conflict-outcome traces,punish,86.875
+R12,3-state GLM-HMM + conflict-outcome traces,conflict,81.70478170478171
+R13,3-state GLM-HMM + conflict-outcome traces,reward,84.9809885931559
+R13,3-state GLM-HMM + conflict-outcome traces,punish,82.10526315789474
+R13,3-state GLM-HMM + conflict-outcome traces,conflict,73.16561844863732
+R14,3-state GLM-HMM + conflict-outcome traces,reward,86.12167300380229
+R14,3-state GLM-HMM + conflict-outcome traces,punish,84.375
+R14,3-state GLM-HMM + conflict-outcome traces,conflict,74.67811158798283
+R15,3-state GLM-HMM + conflict-outcome traces,reward,80.85106382978722
+R15,3-state GLM-HMM + conflict-outcome traces,punish,85.83509513742071
+R15,3-state GLM-HMM + conflict-outcome traces,conflict,74.84008528784648
+R16,3-state GLM-HMM + conflict-outcome traces,reward,98.66412213740458
+R16,3-state GLM-HMM + conflict-outcome traces,punish,78.90295358649789
+R16,3-state GLM-HMM + conflict-outcome traces,conflict,84.16666666666667
+R17,3-state GLM-HMM + conflict-outcome traces,reward,73.15689981096408
+R17,3-state GLM-HMM + conflict-outcome traces,punish,92.35537190082644
+R17,3-state GLM-HMM + conflict-outcome traces,conflict,67.5564681724846
+R18,3-state GLM-HMM + conflict-outcome traces,reward,89.96138996138995
+R18,3-state GLM-HMM + conflict-outcome traces,punish,85.83509513742071
+R18,3-state GLM-HMM + conflict-outcome traces,conflict,80.67226890756302
+R19,3-state GLM-HMM + conflict-outcome traces,reward,87.71266540642722
+R19,3-state GLM-HMM + conflict-outcome traces,punish,96.71457905544148
+R19,3-state GLM-HMM + conflict-outcome traces,conflict,68.24742268041237
+R20,3-state GLM-HMM + conflict-outcome traces,reward,97.36346516007532
+R20,3-state GLM-HMM + conflict-outcome traces,punish,78.71900826446281
+R20,3-state GLM-HMM + conflict-outcome traces,conflict,80.82474226804123
+R21,3-state GLM-HMM + conflict-outcome traces,reward,85.52631578947368
+R21,3-state GLM-HMM + conflict-outcome traces,punish,92.73858921161826
+R21,3-state GLM-HMM + conflict-outcome traces,conflict,67.6954732510288
+R22,3-state GLM-HMM + conflict-outcome traces,reward,97.93621013133207
+R22,3-state GLM-HMM + conflict-outcome traces,punish,78.26086956521739
+R22,3-state GLM-HMM + conflict-outcome traces,conflict,65.28925619834712
+R23,3-state GLM-HMM + conflict-outcome traces,reward,79.69924812030075
+R23,3-state GLM-HMM + conflict-outcome traces,punish,96.900826446281
+R23,3-state GLM-HMM + conflict-outcome traces,conflict,70.86776859504133
+R24,3-state GLM-HMM + conflict-outcome traces,reward,93.82022471910112
+R24,3-state GLM-HMM + conflict-outcome traces,punish,93.81443298969072
+R24,3-state GLM-HMM + conflict-outcome traces,conflict,92.0997920997921

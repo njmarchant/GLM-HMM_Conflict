@@ -1,0 +1,16 @@
+# Versions of the environment the published analyses were run in (Python 3.11.15).
+# Install ssm separately from GitHub at commit eb6c8aa33e5311d3564075807dec340759dd8081 (see README).
+autograd==1.8.0
+matplotlib==3.10.8
+numpy==2.4.6
+plotly==6.7.0
+scikit-learn==1.8.0
+tqdm==4.67.3
+pandas==2.3.3
+scipy==1.17.1
+seaborn==0.13.2
+statsmodels==0.14.6
+# Optional
+# 1.1e is run in a separate environment: see requirements_altmodels.txt
+# trimesh            # 3.1: PowerPoint 3D model
+# diptest            # 3.4: Hartigan's dip test

@@ -1,0 +1,10 @@
+State,Cue,after omission,after pellet,after shock
+Risk-taking,rewDS,0.935,0.949,0.923
+Risk-taking,punDS,0.096,0.121,0.081
+Risk-taking,Conf,0.662,0.718,0.621
+Risk-averse,rewDS,0.951,0.963,0.984
+Risk-averse,punDS,0.06,0.079,0.169
+Risk-averse,Conf,0.09,0.117,0.241
+Repeating,rewDS,0.005,0.992,0.89
+Repeating,punDS,0.007,0.994,0.912
+Repeating,Conf,0.008,0.994,0.92

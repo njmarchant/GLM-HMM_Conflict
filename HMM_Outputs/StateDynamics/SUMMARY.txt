@@ -1,0 +1,47 @@
+STATE DYNAMICS AND SHOCK INTENSITY - SUMMARY
+Settings: threshold 0.65, gap bridging <= 3 trials, minimum run 3 trials, session 'contains' a state if >= 5 trials.
+
+Trials left unassigned at 0.65: 11.8% (2729/23126).
+Sessions: 233 from 16 rats.
+Sessions with >= 1 state switch: 76.4%; median switches per session 2 (IQR 1-3).
+Sessions containing both on-task states (S1 and S2): 33.9%; rats with >= 1 such session: 16/16.
+   sensitivity, minimum run  1 trials: 79.4% of sessions switch, median 3
+   sensitivity, minimum run  3 trials: 76.4% of sessions switch, median 2
+   sensitivity, minimum run  5 trials: 71.7% of sessions switch, median 2
+   sensitivity, minimum run 10 trials: 54.9% of sessions switch, median 1
+Sessions per rat: min 8, max 15; rats with fewer than the maximum: R11
+S1<->S2 changes: 83 direct, 45 routed through the Repeating state.
+Switch counts (From -> To):
+   S1 -> S2: 44
+   S1 -> S3: 192
+   S2 -> S1: 39
+   S2 -> S3: 43
+   S3 -> S1: 158
+   S3 -> S2: 48
+
+Variance in trial-level state membership:
+   Risk-taking: between rats 24.7%, between sessions (within rat) 27.2%, within sessions 48.2%
+   Risk-averse: between rats 39.3%, between sessions (within rat) 31.5%, within sessions 29.2%
+   Repeating: between rats 10.5%, between sessions (within rat) 35.5%, within sessions 54.0%
+
+Occupancy across Phase 3 sessions (LMM, % per session):
+   Risk-taking: beta = +1.74%/session (95% CI +1.00 to +2.48), z = 4.59, p < 0.0001
+   Risk-averse: beta = -1.90%/session (95% CI -2.69 to -1.10), z = -4.68, p < 0.0001
+   Repeating: beta = +0.18%/session (95% CI -0.58 to +0.94), z = 0.46, p = 0.64
+
+Shock intensity: 14/16 rats had > 1 intensity in Phase 3; range 0.16-0.37 mA.
+   Within-rat correlation of intensity with session number: median r = 0.06 (range -0.90 to 0.81).
+   Occupancy ~ intensity_within + intensity_between + session (LMM, % per 0.05 mA):
+   Risk-taking  intensity, within rat (per 0.05 mA)        beta = -7.86 (95% CI -16.51 to +0.78), z = -1.78, p = 0.07
+   Risk-taking  intensity, between rats (per 0.05 mA)      beta = -4.92 (95% CI -18.37 to +8.53), z = -0.72, p = 0.47
+   Risk-taking  session (per session), adjusted            beta = +1.62 (95% CI +0.84 to +2.39), z = 4.09, p < 0.0001
+   Risk-averse  intensity, within rat (per 0.05 mA)        beta = +0.58 (95% CI -8.43 to +9.59), z = 0.13, p = 0.90
+   Risk-averse  intensity, between rats (per 0.05 mA)      beta = +10.28 (95% CI -5.90 to +26.47), z = 1.25, p = 0.21
+   Risk-averse  session (per session), adjusted            beta = -1.90 (95% CI -2.70 to -1.09), z = -4.60, p < 0.0001
+   Repeating    intensity, within rat (per 0.05 mA)        beta = +7.25 (95% CI -1.59 to +16.08), z = 1.61, p = 0.11
+   Repeating    intensity, between rats (per 0.05 mA)      beta = -5.25 (95% CI -12.70 to +2.20), z = -1.38, p = 0.17
+   Repeating    session (per session), adjusted            beta = +0.26 (95% CI -0.53 to +1.05), z = 0.64, p = 0.52
+   Change model, d_occupancy ~ d_intensity (LMM, % per 0.05 mA):
+   Risk-taking  beta = -10.16 (95% CI -23.13 to +2.81), z = -1.54, p = 0.12
+   Risk-averse  beta = +12.17 (95% CI -1.95 to +26.30), z = 1.69, p = 0.09
+   Repeating    beta = -2.01 (95% CI -14.31 to +10.28), z = -0.32, p = 0.75

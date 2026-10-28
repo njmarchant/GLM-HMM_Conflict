@@ -1,0 +1,34 @@
+Alcohol dwell times. Threshold 0.65; split at 900 s; max gap 3; 15 rats. Excluded: []
+Rats: ['R10', 'R11', 'R12', 'R13', 'R14', 'R15', 'R16', 'R17', 'R18', 'R19', 'R20', 'R21', 'R22', 'R23', 'R24']
+
+Trials per session in each epoch (mean over sessions), by dose:
+Dose         Saline  Alcohol_Low  Alcohol_High
+Epoch                                         
+after_15min    83.5         82.9          84.9
+first_15min    16.5         17.1          15.1
+
+=== first_15min: 144 runs; runs ending at the epoch edge: 59%, starting at its first trial: 58% ===
+Pooled runs: n runs [n rats] | median (Q1-Q3) trials
+  State 1: Saline:  25 [15] 14.0 (3-17) | 0.5 g/kg:  35 [15]  9.0 (2-16) | 1.0 g/kg:  22 [13]  2.0 (2-6)
+  State 2: Saline:  10 [ 7] 12.0 (7-15) | 0.5 g/kg:   2 [ 2] 10.5 (10-11) | 1.0 g/kg:   1 [ 1] 10.0 (10-10)
+  State 3: Saline:   7 [ 6]  4.0 (3-6) | 0.5 g/kg:  15 [10]  5.0 (4-9) | 1.0 g/kg:  27 [15] 12.0 (8-12)
+
+=== after_15min: 390 runs; runs ending at the epoch edge: 23%, starting at its first trial: 21% ===
+Pooled runs: n runs [n rats] | median (Q1-Q3) trials
+  State 1: Saline:  44 [15] 17.0 (4-39) | 0.5 g/kg:  72 [15]  9.5 (3-24) | 1.0 g/kg:  71 [14]  7.0 (2-14)
+  State 2: Saline:  23 [11] 23.0 (17-40) | 0.5 g/kg:  15 [ 8] 12.0 (8-18) | 1.0 g/kg:   5 [ 4] 43.0 (43-56)
+  State 3: Saline:  28 [11]  7.0 (4-16) | 0.5 g/kg:  58 [14]  9.0 (4-14) | 1.0 g/kg:  74 [15]  8.5 (5-15)
+
+Cross-check (mixed model, log run length, random intercept for rat; Holm within state/epoch):
+      Epoch  State             Comparison  Ratio_of_geometric_means  CI_low  CI_high      p  N_runs  N_rats  Holm_p                           Note
+first_15min      1  Alcohol_Low vs Saline                    0.8318  0.5438   1.2724 0.3958    82.0    15.0  0.3958                            NaN
+first_15min      1 Alcohol_High vs Saline                    0.4504  0.2807   0.7228 0.0009    82.0    15.0  0.0019                            NaN
+first_15min      2                    NaN                       NaN     NaN      NaN    NaN     NaN     NaN     NaN too few runs for a mixed model
+first_15min      3  Alcohol_Low vs Saline                    1.1612  0.6425   2.0986 0.6206    49.0    15.0  0.6206                            NaN
+first_15min      3 Alcohol_High vs Saline                    1.9020  1.0971   3.2976 0.0220    49.0    15.0  0.0441                            NaN
+after_15min      1  Alcohol_Low vs Saline                    0.7105  0.4561   1.1067 0.1306   187.0    15.0  0.1306                            NaN
+after_15min      1 Alcohol_High vs Saline                    0.5299  0.3385   0.8295 0.0055   187.0    15.0  0.0109                            NaN
+after_15min      2  Alcohol_Low vs Saline                    0.5139  0.3100   0.8520 0.0099    43.0    12.0  0.0197                            NaN
+after_15min      2 Alcohol_High vs Saline                    1.6995  0.8049   3.5884 0.1643    43.0    12.0  0.1643                            NaN
+after_15min      3  Alcohol_Low vs Saline                    1.0186  0.6754   1.5362 0.9300   160.0    15.0  0.9300                            NaN
+after_15min      3 Alcohol_High vs Saline                    1.2213  0.8198   1.8196 0.3256   160.0    15.0  0.6513                            NaN

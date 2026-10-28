@@ -1,0 +1,53 @@
+[1.1f v1] 3-state vs 4-state comparison. Threshold 0.65; 23126 trials, 16 rats.
+
+E. Cosine similarity (rows: 3-state; columns: 4-state, display order):
+             Risk-Taking  Risk-Averse  Repeating 1  Repeating 2
+Risk-Taking        0.997        0.514        0.507        0.474
+Risk-Averse        0.543        0.999       -0.013        0.929
+Repeating          0.086       -0.064        0.721       -0.034
+
+State matching (4-state model index -> display name):
+Display_name  Model_state_index_4 Matched_3state  Cosine_to_match Closest_3state  Cosine_to_closest
+ Risk-Taking                    4    Risk-Taking            0.997    Risk-Taking              0.997
+ Risk-Averse                    3    Risk-Averse            0.999    Risk-Averse              0.999
+ Repeating 1                    2      Repeating            0.721      Repeating              0.721
+ Repeating 2                    1        (extra)              NaN    Risk-Averse              0.929
+
+F. Assignment correspondence (% of row):
+4-state      Risk-Taking  Risk-Averse  Repeating 1  Repeating 2  Unassigned
+3-state                                                                    
+Risk-Taking        73.26         1.37         4.97         8.39       12.01
+Risk-Averse         0.00        92.13         3.48         0.17        4.22
+Repeating           0.96         0.04        70.58        26.99        1.42
+Unassigned          6.71        21.03        27.56        11.54       33.16
+
+F. Assignment counts:
+4-state      Risk-Taking  Risk-Averse  Repeating 1  Repeating 2  Unassigned
+3-state                                                                    
+Risk-Taking         6235          117          423          714        1022
+Risk-Averse            0         6544          247           12         300
+Repeating             46            2         3376         1291          68
+Unassigned           183          574          752          315         905
+
+G. 4-state weights (fit order; positive = drive to press):
+             rewDS  punDS  Past Pellet  Past Shock  Baseline Bias
+Risk-Taking  3.289 -2.246        0.330       0.094         -0.207
+Risk-Averse  0.544 -5.603        0.321       1.175          2.920
+Repeating 1  1.368 -1.059        1.935       0.548         -3.070
+Repeating 2  1.117 -4.397        1.396       1.047          4.364
+
+H. Percentage completed per state and cue (mean, SEM, n rats):
+                       mean  sem  count
+State4      Cue_Label                  
+Repeating 1 Conf        4.6  0.9     15
+            punDS       1.7  0.5     15
+            rewDS      13.5  1.9     15
+Repeating 2 Conf       90.7  2.5     12
+            punDS      77.2  3.7     12
+            rewDS      99.8  0.2     12
+Risk-Averse Conf       10.7  1.8     15
+            punDS       7.2  2.1     14
+            rewDS      97.5  0.6     15
+Risk-Taking Conf       79.0  2.2     15
+            punDS      12.8  2.5     15
+            rewDS      98.1  0.6     15

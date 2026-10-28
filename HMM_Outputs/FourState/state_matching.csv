@@ -1,0 +1,5 @@
+Display_name,Model_state_index_4,Matched_3state,Cosine_to_match,Closest_3state,Cosine_to_closest
+Risk-Taking,4,Risk-Taking,0.997,Risk-Taking,0.997
+Risk-Averse,3,Risk-Averse,0.999,Risk-Averse,0.999
+Repeating 1,2,Repeating,0.721,Repeating,0.721
+Repeating 2,1,(extra),,Risk-Averse,0.929

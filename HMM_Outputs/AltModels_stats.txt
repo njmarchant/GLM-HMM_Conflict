@@ -1,0 +1,271 @@
+Held-out causal log-likelihood per trial, mean +/- SEM across rats
+  (leave-one-rat-out; '(per rat)' models: within-rat 5-fold session CV, which lets them use the test rat's other sessions; the HMM never sees the test rat)
+  3-state GLM-HMM                                -0.3945 +/- 0.0169   (23 parameters)
+  4-state GLM-HMM                                -0.3720 +/- 0.0163   (35 parameters)
+  5-state GLM-HMM                                -0.3693 +/- 0.0162   (49 parameters)
+  GLM static                                     -0.4892 +/- 0.0139   (5 parameters)
+  Q-learning + Pavlovian (elemental)             -0.4356 +/- 0.0140   (13 parameters)
+  Q-learning + Pavlovian (configural)            -0.3848 +/- 0.0155   (15 parameters)
+  Q-learning + Pavlovian (elemental, per rat)    -0.3858 +/- 0.0139   (13 parameters per rat)
+  Q-learning + Pavlovian (configural, per rat)   -0.3885 +/- 0.0142   (15 parameters per rat)
+  GLM drift (session reset)                      -0.3697 +/- 0.0158   (15 parameters)
+  GLM drift (carry over days)                    -0.3612 +/- 0.0166   (16 parameters)
+  GLM drift AR(1) (session reset)                -0.3724 +/- 0.0158   (15 parameters)
+  GLM drift AR(1) (carry over days)              -0.3592 +/- 0.0165   (16 parameters)
+  GLM per-session weights (no drift)             -0.3817 +/- 0.0167   (10 parameters)
+  GLM per-rat weights (no drift)                 -0.4258 +/- 0.0162   (10 parameters)
+  3-state GLM-HMM (re-fit here)                  -0.3897 +/- 0.0172   (27 parameters)
+  3-state GLM-HMM, outcome-driven transitions    -0.3929 +/- 0.0157   (39 parameters)
+  3-state GLM-HMM + conflict-outcome traces      -0.3689 +/- 0.0157   (41 parameters)
+  Q-learning, no Pavlovian (elemental; v1)       -0.4660 +/- 0.0157   (9 parameters)
+  Q-learning, no Pavlovian (configural; v1)      -0.4599 +/- 0.0220   (10 parameters)
+
+3-state GLM-HMM minus each alternative (positive = HMM predicts held-out choices better)
+  vs 4-state GLM-HMM: dLL/trial = -0.0224 (95% CI -0.0331 to -0.0118); HMM better in 1/16 rats; t(15) = -4.49, p = 0.0004; Wilcoxon p < 0.0001; summed dLL = -505.5 nats
+  vs 5-state GLM-HMM: dLL/trial = -0.0251 (95% CI -0.0360 to -0.0143); HMM better in 0/16 rats; t(15) = -4.93, p = 0.0002; Wilcoxon p < 0.0001; summed dLL = -573.6 nats
+  vs GLM static: dLL/trial = +0.0947 (95% CI +0.0702 to +0.1192); HMM better in 16/16 rats; t(15) = 8.23, p < 0.0001; Wilcoxon p < 0.0001; summed dLL = +2175.2 nats
+  vs Q-learning + Pavlovian (elemental): dLL/trial = +0.0412 (95% CI +0.0235 to +0.0588); HMM better in 15/16 rats; t(15) = 4.98, p = 0.0002; Wilcoxon p = 0.0004; summed dLL = +965.8 nats
+  vs Q-learning + Pavlovian (configural): dLL/trial = -0.0096 (95% CI -0.0208 to +0.0015); HMM better in 4/16 rats; t(15) = -1.85, p = 0.084; Wilcoxon p = 0.083; summed dLL = -204.6 nats
+  vs Q-learning + Pavlovian (elemental, per rat): dLL/trial = -0.0087 (95% CI -0.0253 to +0.0079); HMM better in 7/16 rats; t(15) = -1.11, p = 0.283; Wilcoxon p = 0.274; summed dLL = -187.4 nats
+  vs Q-learning + Pavlovian (configural, per rat): dLL/trial = -0.0059 (95% CI -0.0234 to +0.0116); HMM better in 7/16 rats; t(15) = -0.72, p = 0.482; Wilcoxon p = 0.348; summed dLL = -109.3 nats
+  vs GLM drift (session reset): dLL/trial = -0.0248 (95% CI -0.0364 to -0.0132); HMM better in 1/16 rats; t(15) = -4.54, p = 0.0004; Wilcoxon p < 0.0001; summed dLL = -573.6 nats
+  vs GLM drift (carry over days): dLL/trial = -0.0332 (95% CI -0.0477 to -0.0187); HMM better in 0/16 rats; t(15) = -4.88, p = 0.0002; Wilcoxon p < 0.0001; summed dLL = -764.3 nats
+  vs GLM drift AR(1) (session reset): dLL/trial = -0.0221 (95% CI -0.0329 to -0.0112); HMM better in 2/16 rats; t(15) = -4.34, p = 0.0006; Wilcoxon p = 0.0002; summed dLL = -511.3 nats
+  vs GLM drift AR(1) (carry over days): dLL/trial = -0.0352 (95% CI -0.0491 to -0.0213); HMM better in 0/16 rats; t(15) = -5.39, p < 0.0001; Wilcoxon p < 0.0001; summed dLL = -808.0 nats
+  vs GLM per-session weights (no drift): dLL/trial = -0.0127 (95% CI -0.0256 to +0.0002); HMM better in 6/16 rats; t(15) = -2.11, p = 0.052; Wilcoxon p = 0.117; summed dLL = -295.1 nats
+  vs GLM per-rat weights (no drift): dLL/trial = +0.0314 (95% CI +0.0121 to +0.0507); HMM better in 13/16 rats; t(15) = 3.46, p = 0.003; Wilcoxon p = 0.005; summed dLL = +729.5 nats
+  vs 3-state GLM-HMM (re-fit here): dLL/trial = -0.0047 (95% CI -0.0120 to +0.0025); HMM better in 9/16 rats; t(15) = -1.39, p = 0.184; Wilcoxon p = 0.782; summed dLL = -113.6 nats
+  vs 3-state GLM-HMM, outcome-driven transitions: dLL/trial = -0.0016 (95% CI -0.0071 to +0.0040); HMM better in 2/16 rats; t(15) = -0.60, p = 0.556; Wilcoxon p = 0.018; summed dLL = -35.9 nats
+  vs 3-state GLM-HMM + conflict-outcome traces: dLL/trial = -0.0255 (95% CI -0.0343 to -0.0168); HMM better in 0/16 rats; t(15) = -6.21, p < 0.0001; Wilcoxon p < 0.0001; summed dLL = -596.1 nats
+  vs Q-learning, no Pavlovian (elemental; v1): dLL/trial = +0.0715 (95% CI +0.0441 to +0.0990); HMM better in 15/16 rats; t(15) = 5.55, p < 0.0001; Wilcoxon p < 0.0001; summed dLL = +1605.5 nats
+  vs Q-learning, no Pavlovian (configural; v1): dLL/trial = +0.0654 (95% CI +0.0363 to +0.0945); HMM better in 16/16 rats; t(15) = 4.79, p = 0.0002; Wilcoxon p < 0.0001; summed dLL = +1500.9 nats
+  3-state GLM-HMM, outcome-driven transitions minus 3-state GLM-HMM (re-fit here): dLL/trial = -0.0032 (95% CI -0.0096 to +0.0032); better in 12/16 rats; t(15) = -1.05, p = 0.309; Wilcoxon p = 0.464; summed dLL = -77.7 nats
+  3-state GLM-HMM + conflict-outcome traces minus 3-state GLM-HMM (re-fit here): dLL/trial = +0.0208 (95% CI +0.0158 to +0.0258); better in 16/16 rats; t(15) = 8.82, p < 0.0001; Wilcoxon p < 0.0001; summed dLL = +482.5 nats
+
+Held-out one-step-ahead accuracy by cue (mean +/- SEM across rats); HMM minus alternative
+  rewDS: HMM 87.9 +/- 1.9%; GLM static 79.4% (diff +8.5 pp, 14/16 rats, p = 0.002); Q-learning + Pavlovian (elemental) 80.7% (diff +7.2 pp, 14/16 rats, p = 0.003); Q-learning + Pavlovian (configural) 87.6% (diff +0.4 pp, 9/16 rats, p = 0.429); Q-learning + Pavlovian (elemental, per rat) 86.4% (diff +1.5 pp, 12/16 rats, p = 0.021); Q-learning + Pavlovian (configural, per rat) 87.9% (diff +0.1 pp, 11/16 rats, p = 0.807); GLM drift (session reset) 88.0% (diff -0.1 pp, 5/16 rats, p = 0.793); GLM drift (carry over days) 87.5% (diff +0.4 pp, 8/16 rats, p = 0.464); GLM drift AR(1) (session reset) 87.9% (diff -0.0 pp, 8/16 rats, p = 0.990); GLM drift AR(1) (carry over days) 87.7% (diff +0.2 pp, 9/16 rats, p = 0.582); GLM per-session weights (no drift) 87.0% (diff +1.0 pp, 11/16 rats, p = 0.079); GLM per-rat weights (no drift) 82.5% (diff +5.5 pp, 14/16 rats, p = 0.0004); 3-state GLM-HMM (re-fit here) 87.8% (diff +0.1 pp, 6/16 rats, p = 0.315); 3-state GLM-HMM, outcome-driven transitions 87.9% (diff -0.0 pp, 4/16 rats, p = 0.995); 3-state GLM-HMM + conflict-outcome traces 87.7% (diff +0.2 pp, 11/16 rats, p = 0.260); Q-learning, no Pavlovian (elemental; v1) 79.5% (diff +8.4 pp, 14/16 rats, p = 0.002); Q-learning, no Pavlovian (configural; v1) 78.5% (diff +9.5 pp, 15/16 rats, p = 0.0006)
+  punDS: HMM 86.3 +/- 2.8%; GLM static 85.7% (diff +0.6 pp, 4/16 rats, p = 0.492); Q-learning + Pavlovian (elemental) 85.8% (diff +0.5 pp, 4/16 rats, p = 0.473); Q-learning + Pavlovian (configural) 85.7% (diff +0.6 pp, 5/16 rats, p = 0.489); Q-learning + Pavlovian (elemental, per rat) 88.1% (diff -1.8 pp, 6/16 rats, p = 0.290); Q-learning + Pavlovian (configural, per rat) 87.3% (diff -1.0 pp, 4/16 rats, p = 0.485); GLM drift (session reset) 88.6% (diff -2.4 pp, 6/16 rats, p = 0.171); GLM drift (carry over days) 89.1% (diff -2.8 pp, 3/16 rats, p = 0.101); GLM drift AR(1) (session reset) 89.0% (diff -2.7 pp, 3/16 rats, p = 0.128); GLM drift AR(1) (carry over days) 89.3% (diff -3.0 pp, 3/16 rats, p = 0.104); GLM per-session weights (no drift) 88.5% (diff -2.3 pp, 6/16 rats, p = 0.190); GLM per-rat weights (no drift) 86.2% (diff +0.0 pp, 8/16 rats, p = 0.973); 3-state GLM-HMM (re-fit here) 88.5% (diff -2.2 pp, 2/16 rats, p = 0.169); 3-state GLM-HMM, outcome-driven transitions 88.4% (diff -2.1 pp, 6/16 rats, p = 0.173); 3-state GLM-HMM + conflict-outcome traces 88.6% (diff -2.3 pp, 5/16 rats, p = 0.143); Q-learning, no Pavlovian (elemental; v1) 85.6% (diff +0.6 pp, 5/16 rats, p = 0.473); Q-learning, no Pavlovian (configural; v1) 87.5% (diff -1.2 pp, 4/16 rats, p = 0.436)
+  conflict: HMM 74.7 +/- 1.9%; GLM static 65.6% (diff +9.1 pp, 16/16 rats, p = 0.0003); Q-learning + Pavlovian (elemental) 74.8% (diff -0.1 pp, 8/16 rats, p = 0.934); Q-learning + Pavlovian (configural) 75.8% (diff -1.1 pp, 4/16 rats, p = 0.099); Q-learning + Pavlovian (elemental, per rat) 75.7% (diff -1.0 pp, 3/16 rats, p = 0.041); Q-learning + Pavlovian (configural, per rat) 76.6% (diff -1.9 pp, 4/16 rats, p = 0.002); GLM drift (session reset) 75.4% (diff -0.7 pp, 6/16 rats, p = 0.128); GLM drift (carry over days) 76.7% (diff -2.0 pp, 3/16 rats, p = 0.0002); GLM drift AR(1) (session reset) 75.3% (diff -0.6 pp, 6/16 rats, p = 0.204); GLM drift AR(1) (carry over days) 76.6% (diff -1.9 pp, 2/16 rats, p = 0.0002); GLM per-session weights (no drift) 73.4% (diff +1.3 pp, 13/16 rats, p = 0.009); GLM per-rat weights (no drift) 70.2% (diff +4.5 pp, 14/16 rats, p = 0.001); 3-state GLM-HMM (re-fit here) 74.5% (diff +0.2 pp, 8/16 rats, p = 0.120); 3-state GLM-HMM, outcome-driven transitions 75.0% (diff -0.3 pp, 9/16 rats, p = 0.408); 3-state GLM-HMM + conflict-outcome traces 76.1% (diff -1.4 pp, 3/16 rats, p = 0.018); Q-learning, no Pavlovian (elemental; v1) 69.2% (diff +5.5 pp, 12/16 rats, p = 0.009); Q-learning, no Pavlovian (configural; v1) 67.6% (diff +7.1 pp, 15/16 rats, p = 0.017)
+
+POSTERIOR PREDICTIVE CHECK
+Blocks of 8 consecutive conflict trials (non-overlapping), 906 observed blocks
+Distance between the rats' and each model's distribution of block response rates
+(total variation = fraction of blocks that would have to move; 'sampling only' = 95% range
+ expected if the model were true; p = posterior predictive p-value, small = model fails)
+  3-state GLM-HMM                                distance = 0.077 (sampling only: 0.026-0.058); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  GLM static                                     distance = 0.381 (sampling only: 0.016-0.052); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  Q-learning + Pavlovian (elemental)             distance = 0.200 (sampling only: 0.025-0.140); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  Q-learning + Pavlovian (configural)            distance = 0.088 (sampling only: 0.030-0.070); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  Q-learning + Pavlovian (elemental, per rat)    distance = 0.195 (sampling only: 0.033-0.119); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  Q-learning + Pavlovian (configural, per rat)   distance = 0.042 (sampling only: 0.024-0.074); p = 0.569
+  GLM drift (session reset)                      distance = 0.398 (sampling only: 0.022-0.068); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  GLM drift (carry over days)                    distance = 0.482 (sampling only: 0.036-0.201); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  GLM drift AR(1) (session reset)                distance = 0.280 (sampling only: 0.025-0.075); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  GLM drift AR(1) (carry over days)              distance = 0.393 (sampling only: 0.033-0.181); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  GLM per-session weights (no drift)             distance = 0.426 (sampling only: 0.023-0.074); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  GLM per-rat weights (no drift)                 distance = 0.567 (sampling only: 0.051-0.289); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  3-state GLM-HMM (re-fit here)                  distance = 0.103 (sampling only: 0.024-0.064); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  3-state GLM-HMM, outcome-driven transitions    distance = 0.091 (sampling only: 0.023-0.070); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  3-state GLM-HMM + conflict-outcome traces      distance = 0.054 (sampling only: 0.021-0.067); p = 0.176
+  Q-learning, no Pavlovian (elemental; v1)       distance = 0.271 (sampling only: 0.017-0.056); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+  Q-learning, no Pavlovian (configural; v1)      distance = 0.201 (sampling only: 0.024-0.057); p <= 0.020 (no simulation of 50 as far off; minimum possible p)
+
+Coarser summary: fraction of blocks <=25% or >=75% pressed (rats: 0.705)
+  3-state GLM-HMM                                0.661 (95% sim. interval 0.629-0.690)
+  GLM static                                     0.425 (95% sim. interval 0.399-0.451)
+  Q-learning + Pavlovian (elemental)             0.755 (95% sim. interval 0.694-0.794)
+  Q-learning + Pavlovian (configural)            0.699 (95% sim. interval 0.674-0.732)
+  Q-learning + Pavlovian (elemental, per rat)    0.824 (95% sim. interval 0.786-0.865)
+  Q-learning + Pavlovian (configural, per rat)   0.704 (95% sim. interval 0.655-0.733)
+  GLM drift (session reset)                      0.879 (95% sim. interval 0.858-0.903)
+  GLM drift (carry over days)                    0.923 (95% sim. interval 0.890-0.959)
+  GLM drift AR(1) (session reset)                0.836 (95% sim. interval 0.806-0.863)
+  GLM drift AR(1) (carry over days)              0.886 (95% sim. interval 0.845-0.918)
+  GLM per-session weights (no drift)             0.879 (95% sim. interval 0.855-0.909)
+  GLM per-rat weights (no drift)                 0.952 (95% sim. interval 0.869-1.000)
+  3-state GLM-HMM (re-fit here)                  0.649 (95% sim. interval 0.624-0.688)
+  3-state GLM-HMM, outcome-driven transitions    0.653 (95% sim. interval 0.620-0.685)
+  3-state GLM-HMM + conflict-outcome traces      0.704 (95% sim. interval 0.665-0.745)
+  Q-learning, no Pavlovian (elemental; v1)       0.511 (95% sim. interval 0.482-0.543)
+  Q-learning, no Pavlovian (configural; v1)      0.564 (95% sim. interval 0.531-0.590)
+
+Behavioural signatures (observed vs each model's simulations; two-sided p)
+  p_after_pellet: P(press on next conflict trial | pressed last conflict trial, got pellet)
+    Rats                                           +0.776
+    3-state GLM-HMM                                +0.656 (95% sim. interval +0.625 to +0.683); p = 0.039
+    GLM static                                     +0.447 (95% sim. interval +0.419 to +0.468); p = 0.039
+    Q-learning + Pavlovian (elemental)             +0.591 (95% sim. interval +0.435 to +0.740); p = 0.039
+    Q-learning + Pavlovian (configural)            +0.699 (95% sim. interval +0.666 to +0.727); p = 0.039
+    Q-learning + Pavlovian (elemental, per rat)    +0.785 (95% sim. interval +0.709 to +0.846); p = 0.824
+    Q-learning + Pavlovian (configural, per rat)   +0.715 (95% sim. interval +0.677 to +0.746); p = 0.039
+    GLM drift (session reset)                      +0.897 (95% sim. interval +0.883 to +0.914); p = 0.039
+    GLM drift AR(1) (session reset)                +0.838 (95% sim. interval +0.803 to +0.868); p = 0.039
+    3-state GLM-HMM (re-fit here)                  +0.664 (95% sim. interval +0.639 to +0.692); p = 0.039
+    3-state GLM-HMM, outcome-driven transitions    +0.688 (95% sim. interval +0.665 to +0.715); p = 0.039
+    3-state GLM-HMM + conflict-outcome traces      +0.727 (95% sim. interval +0.699 to +0.761); p = 0.039
+    Q-learning, no Pavlovian (elemental; v1)       +0.679 (95% sim. interval +0.652 to +0.707); p = 0.039
+    Q-learning, no Pavlovian (configural; v1)      +0.505 (95% sim. interval +0.483 to +0.536); p = 0.039
+  p_after_shock: P(press on next conflict trial | pressed last conflict trial, got shock)
+    Rats                                           +0.555
+    3-state GLM-HMM                                +0.626 (95% sim. interval +0.604 to +0.649); p = 0.039
+    GLM static                                     +0.475 (95% sim. interval +0.450 to +0.497); p = 0.039
+    Q-learning + Pavlovian (elemental)             +0.562 (95% sim. interval +0.395 to +0.722); p = 0.902
+    Q-learning + Pavlovian (configural)            +0.595 (95% sim. interval +0.556 to +0.641); p = 0.078
+    Q-learning + Pavlovian (elemental, per rat)    +0.763 (95% sim. interval +0.679 to +0.827); p = 0.039
+    Q-learning + Pavlovian (configural, per rat)   +0.598 (95% sim. interval +0.548 to +0.643); p = 0.157
+    GLM drift (session reset)                      +0.892 (95% sim. interval +0.863 to +0.911); p = 0.039
+    GLM drift AR(1) (session reset)                +0.833 (95% sim. interval +0.804 to +0.855); p = 0.039
+    3-state GLM-HMM (re-fit here)                  +0.633 (95% sim. interval +0.610 to +0.661); p = 0.039
+    3-state GLM-HMM, outcome-driven transitions    +0.602 (95% sim. interval +0.573 to +0.629); p = 0.078
+    3-state GLM-HMM + conflict-outcome traces      +0.513 (95% sim. interval +0.481 to +0.557); p = 0.118
+    Q-learning, no Pavlovian (elemental; v1)       +0.362 (95% sim. interval +0.340 to +0.383); p = 0.039
+    Q-learning, no Pavlovian (configural; v1)      +0.519 (95% sim. interval +0.494 to +0.554); p = 0.039
+  outcome_effect: pellet minus shock: effect of the last conflict outcome on the next conflict choice
+    Rats                                           +0.221
+    3-state GLM-HMM                                +0.029 (95% sim. interval -0.001 to +0.059); p = 0.039
+    GLM static                                     -0.029 (95% sim. interval -0.071 to +0.009); p = 0.039
+    Q-learning + Pavlovian (elemental)             +0.029 (95% sim. interval -0.007 to +0.070); p = 0.039
+    Q-learning + Pavlovian (configural)            +0.104 (95% sim. interval +0.072 to +0.144); p = 0.039
+    Q-learning + Pavlovian (elemental, per rat)    +0.022 (95% sim. interval -0.001 to +0.045); p = 0.039
+    Q-learning + Pavlovian (configural, per rat)   +0.117 (95% sim. interval +0.086 to +0.143); p = 0.039
+    GLM drift (session reset)                      +0.006 (95% sim. interval -0.011 to +0.024); p = 0.039
+    GLM drift AR(1) (session reset)                +0.005 (95% sim. interval -0.020 to +0.029); p = 0.039
+    3-state GLM-HMM (re-fit here)                  +0.030 (95% sim. interval -0.004 to +0.060); p = 0.039
+    3-state GLM-HMM, outcome-driven transitions    +0.086 (95% sim. interval +0.054 to +0.119); p = 0.039
+    3-state GLM-HMM + conflict-outcome traces      +0.214 (95% sim. interval +0.178 to +0.243); p = 0.980
+    Q-learning, no Pavlovian (elemental; v1)       +0.317 (95% sim. interval +0.288 to +0.343); p = 0.039
+    Q-learning, no Pavlovian (configural; v1)      -0.013 (95% sim. interval -0.042 to +0.020); p = 0.039
+  outcome_effect_conf_lag2: same, on the 2nd conflict trial after the outcome (persistence)
+    Rats                                           +0.175
+    3-state GLM-HMM                                +0.012 (95% sim. interval -0.017 to +0.048); p = 0.039
+    GLM static                                     -0.008 (95% sim. interval -0.040 to +0.021); p = 0.039
+    Q-learning + Pavlovian (elemental)             +0.026 (95% sim. interval -0.006 to +0.064); p = 0.039
+    Q-learning + Pavlovian (configural)            +0.102 (95% sim. interval +0.076 to +0.140); p = 0.039
+    Q-learning + Pavlovian (configural, per rat)   +0.106 (95% sim. interval +0.070 to +0.132); p = 0.039
+    GLM drift (session reset)                      +0.001 (95% sim. interval -0.015 to +0.015); p = 0.039
+    GLM drift AR(1) (session reset)                -0.001 (95% sim. interval -0.023 to +0.017); p = 0.039
+    3-state GLM-HMM (re-fit here)                  +0.008 (95% sim. interval -0.017 to +0.032); p = 0.039
+    3-state GLM-HMM, outcome-driven transitions    +0.062 (95% sim. interval +0.031 to +0.099); p = 0.039
+    3-state GLM-HMM + conflict-outcome traces      +0.198 (95% sim. interval +0.158 to +0.249); p = 0.392
+    Q-learning, no Pavlovian (elemental; v1)       +0.262 (95% sim. interval +0.230 to +0.296); p = 0.039
+  outcome_effect_conf_lag3: same, on the 3rd conflict trial after the outcome (persistence)
+    Rats                                           +0.115
+    3-state GLM-HMM                                +0.007 (95% sim. interval -0.031 to +0.048); p = 0.039
+    GLM static                                     +0.004 (95% sim. interval -0.028 to +0.029); p = 0.039
+    Q-learning + Pavlovian (elemental)             +0.024 (95% sim. interval -0.006 to +0.061); p = 0.039
+    Q-learning + Pavlovian (configural)            +0.094 (95% sim. interval +0.064 to +0.130); p = 0.314
+    Q-learning + Pavlovian (configural, per rat)   +0.096 (95% sim. interval +0.064 to +0.124); p = 0.275
+    GLM drift (session reset)                      +0.001 (95% sim. interval -0.016 to +0.020); p = 0.039
+    GLM drift AR(1) (session reset)                +0.000 (95% sim. interval -0.016 to +0.015); p = 0.039
+    3-state GLM-HMM (re-fit here)                  +0.004 (95% sim. interval -0.030 to +0.032); p = 0.039
+    3-state GLM-HMM, outcome-driven transitions    +0.041 (95% sim. interval +0.006 to +0.077); p = 0.039
+    3-state GLM-HMM + conflict-outcome traces      +0.169 (95% sim. interval +0.133 to +0.209); p = 0.039
+    Q-learning, no Pavlovian (elemental; v1)       +0.180 (95% sim. interval +0.155 to +0.221); p = 0.039
+  outcome_effect_next_rewDS: pellet minus shock: effect of the last conflict outcome on the next rewDS choice
+    Rats                                           +0.102
+    3-state GLM-HMM                                +0.025 (95% sim. interval +0.006 to +0.043); p = 0.039
+    GLM static                                     -0.010 (95% sim. interval -0.040 to +0.013); p = 0.039
+    Q-learning + Pavlovian (elemental)             +0.007 (95% sim. interval -0.021 to +0.032); p = 0.039
+    Q-learning + Pavlovian (configural)            +0.005 (95% sim. interval -0.014 to +0.023); p = 0.039
+    Q-learning + Pavlovian (configural, per rat)   +0.013 (95% sim. interval -0.008 to +0.034); p = 0.039
+    GLM drift (session reset)                      +0.001 (95% sim. interval -0.005 to +0.005); p = 0.039
+    GLM drift AR(1) (session reset)                +0.001 (95% sim. interval -0.007 to +0.007); p = 0.039
+    3-state GLM-HMM (re-fit here)                  +0.024 (95% sim. interval +0.004 to +0.042); p = 0.039
+    3-state GLM-HMM, outcome-driven transitions    +0.013 (95% sim. interval -0.005 to +0.035); p = 0.039
+    3-state GLM-HMM + conflict-outcome traces      +0.084 (95% sim. interval +0.065 to +0.112); p = 0.275
+    Q-learning, no Pavlovian (elemental; v1)       +0.090 (95% sim. interval +0.067 to +0.114); p = 0.471
+  outcome_effect_next_punDS: pellet minus shock: effect of the last conflict outcome on the next punDS choice
+    Rats                                           +0.110
+    3-state GLM-HMM                                +0.022 (95% sim. interval -0.003 to +0.048); p = 0.039
+    GLM static                                     -0.031 (95% sim. interval -0.056 to -0.004); p = 0.039
+    Q-learning + Pavlovian (elemental)             +0.005 (95% sim. interval -0.033 to +0.033); p = 0.039
+    Q-learning + Pavlovian (configural)            -0.002 (95% sim. interval -0.024 to +0.022); p = 0.039
+    Q-learning + Pavlovian (configural, per rat)   -0.000 (95% sim. interval -0.024 to +0.026); p = 0.039
+    GLM drift (session reset)                      +0.013 (95% sim. interval -0.004 to +0.033); p = 0.039
+    GLM drift AR(1) (session reset)                +0.012 (95% sim. interval -0.021 to +0.039); p = 0.039
+    3-state GLM-HMM (re-fit here)                  +0.024 (95% sim. interval -0.002 to +0.053); p = 0.039
+    3-state GLM-HMM, outcome-driven transitions    +0.056 (95% sim. interval +0.027 to +0.079); p = 0.039
+    3-state GLM-HMM + conflict-outcome traces      +0.132 (95% sim. interval +0.101 to +0.164); p = 0.196
+    Q-learning, no Pavlovian (elemental; v1)       +0.092 (95% sim. interval +0.062 to +0.129); p = 0.235
+  r_conflict_punDS: within-session correlation of conflict and punDS responding across 24-trial blocks
+    Rats                                           +0.384
+    3-state GLM-HMM                                +0.464 (95% sim. interval +0.410 to +0.516); p = 0.039
+    GLM static                                     +0.222 (95% sim. interval +0.171 to +0.267); p = 0.039
+    Q-learning + Pavlovian (elemental)             +0.184 (95% sim. interval +0.121 to +0.263); p = 0.039
+    Q-learning + Pavlovian (configural)            +0.163 (95% sim. interval +0.095 to +0.229); p = 0.039
+    Q-learning + Pavlovian (elemental, per rat)    +0.185 (95% sim. interval +0.125 to +0.269); p = 0.039
+    Q-learning + Pavlovian (configural, per rat)   +0.145 (95% sim. interval +0.076 to +0.221); p = 0.039
+    GLM drift (session reset)                      +0.335 (95% sim. interval +0.272 to +0.426); p = 0.275
+    GLM drift AR(1) (session reset)                +0.273 (95% sim. interval +0.205 to +0.336); p = 0.039
+    3-state GLM-HMM (re-fit here)                  +0.464 (95% sim. interval +0.400 to +0.512); p = 0.039
+    3-state GLM-HMM, outcome-driven transitions    +0.458 (95% sim. interval +0.387 to +0.508); p = 0.078
+    3-state GLM-HMM + conflict-outcome traces      +0.398 (95% sim. interval +0.325 to +0.460); p = 0.627
+    Q-learning, no Pavlovian (elemental; v1)       +0.364 (95% sim. interval +0.299 to +0.418); p = 0.627
+    Q-learning, no Pavlovian (configural; v1)      +0.177 (95% sim. interval +0.102 to +0.255); p = 0.039
+  r_conflict_rewDS: within-session correlation of conflict and rewDS responding across 24-trial blocks
+    Rats                                           +0.492
+    3-state GLM-HMM                                +0.363 (95% sim. interval +0.285 to +0.419); p = 0.039
+    GLM static                                     +0.185 (95% sim. interval +0.116 to +0.248); p = 0.039
+    Q-learning + Pavlovian (elemental)             +0.272 (95% sim. interval +0.190 to +0.327); p = 0.039
+    Q-learning + Pavlovian (configural)            +0.142 (95% sim. interval +0.058 to +0.207); p = 0.039
+    Q-learning + Pavlovian (elemental, per rat)    +0.314 (95% sim. interval +0.225 to +0.395); p = 0.039
+    Q-learning + Pavlovian (configural, per rat)   +0.157 (95% sim. interval +0.083 to +0.221); p = 0.039
+    GLM drift (session reset)                      +0.248 (95% sim. interval +0.178 to +0.352); p = 0.039
+    GLM drift AR(1) (session reset)                +0.254 (95% sim. interval +0.198 to +0.321); p = 0.039
+    3-state GLM-HMM (re-fit here)                  +0.367 (95% sim. interval +0.288 to +0.429); p = 0.039
+    3-state GLM-HMM, outcome-driven transitions    +0.374 (95% sim. interval +0.291 to +0.453); p = 0.039
+    3-state GLM-HMM + conflict-outcome traces      +0.375 (95% sim. interval +0.318 to +0.424); p = 0.039
+    Q-learning, no Pavlovian (elemental; v1)       +0.269 (95% sim. interval +0.207 to +0.337); p = 0.039
+    Q-learning, no Pavlovian (configural; v1)      +0.149 (95% sim. interval +0.067 to +0.221); p = 0.039
+
+TRACE MODEL: GLM-HMM + decaying conflict-outcome traces
+(states S1-S3 ordered by conflict press logit with no history: for 3 states S1 = Risk-taking, S2 = Risk-averse, S3 = Repeating)
+
+State agreement (smoothed posteriors, all trials of all rats)
+  1.1 model vs traces: 78.5% of trials assigned (max posterior >= 0.65) by both; same state on 69.9% of them (Cohen's kappa 0.541). Mean |difference in posterior| over all trials 22.1 pp.
+  Confusion matrix (trials):
+    traces state        1     2     3
+    1.1 model state                  
+    1                3050  3970   203
+    2                 450  6099    52
+    3                 640   140  3547
+  Occupancy (mean posterior): S1 40.5% vs 27.3%; S2 36.0% vs 51.7%; S3 23.5% vs 20.9%
+  Cosine similarity of the five shared weights, per state: S1 0.669, S2 0.990, S3 0.932
+  stationary re-fit vs traces: 79.0% of trials assigned (max posterior >= 0.65) by both; same state on 70.5% of them (Cohen's kappa 0.552). Mean |difference in posterior| over all trials 21.7 pp.
+  Confusion matrix (trials):
+    traces state                1     2     3
+    stationary re-fit state                  
+    1                        3281  3999   230
+    2                         339  6070    40
+    3                         633   148  3541
+  Occupancy (mean posterior): S1 41.8% vs 27.3%; S2 34.8% vs 51.7%; S3 23.4% vs 20.9%
+  Cosine similarity of the five shared weights, per state: S1 0.664, S2 0.990, S3 0.924
+  (benchmark: 1.1 model vs the stationary re-fit)
+  1.1 model vs re-fit: 86.7% of trials assigned (max posterior >= 0.65) by both; same state on 100.0% of them (Cohen's kappa 1.000). Mean |difference in posterior| over all trials 1.0 pp.
+
+Trace weights (logit units at trace = 1; full fit +/- jackknife SE over 16 leave-one-rat-out fits)
+  Effect of a trace on trial t+k is weight * decay**(k-1). Non-conflict trials: trace weight; conflict trials: trace + trace_x_conflict.
+  z and p use the jackknife SE (the leave-one-rat-out fits share 15 of 16 rats, so their raw spread is not the uncertainty). Weights in a state where conflict presses are rare (e.g. Risk-averse) are poorly constrained: read the SE.
+  S1:
+    shock_trace                -1.26 +/- 0.38 (z = -3.3, p = 0.0009)
+    pellet_trace               +0.35 +/- 0.33 (z = +1.0, p = 0.295)
+    shock_trace_x_conflict     +0.73 +/- 0.13 (z = +5.6, p < 0.0001)
+    pellet_trace_x_conflict    +0.79 +/- 0.42 (z = +1.9, p = 0.061)
+    shock - pellet (nonconflict) -1.61 +/- 0.25 (z = -6.4, p < 0.0001)
+    shock - pellet (conflict   ) -1.66 +/- 0.49 (z = -3.4, p = 0.0007)
+  S2:
+    shock_trace                -0.16 +/- 0.32 (z = -0.5, p = 0.627)
+    pellet_trace               +0.96 +/- 0.23 (z = +4.2, p < 0.0001)
+    shock_trace_x_conflict     +0.45 +/- 0.28 (z = +1.6, p = 0.102)
+    pellet_trace_x_conflict    +0.61 +/- 0.21 (z = +2.9, p = 0.004)
+    shock - pellet (nonconflict) -1.11 +/- 0.16 (z = -7.0, p < 0.0001)
+    shock - pellet (conflict   ) -1.27 +/- 0.21 (z = -6.1, p < 0.0001)
+  S3:
+    shock_trace                +0.31 +/- 0.22 (z = +1.4, p = 0.171)
+    pellet_trace               +1.82 +/- 0.41 (z = +4.5, p < 0.0001)
+    shock_trace_x_conflict     -0.08 +/- 0.13 (z = -0.6, p = 0.558)
+    pellet_trace_x_conflict    +0.22 +/- 0.54 (z = +0.4, p = 0.685)
+    shock - pellet (nonconflict) -1.52 +/- 0.53 (z = -2.9, p = 0.004)
+    shock - pellet (conflict   ) -1.81 +/- 0.48 (z = -3.8, p = 0.0001)
+  Decay per trial, shock trace: 0.98 +/- 0.05; half-life 40.3 trials
+  Decay per trial, pellet trace: 0.91 +/- 0.01; half-life 7.3 trials

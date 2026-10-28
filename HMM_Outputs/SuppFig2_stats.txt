@@ -1,0 +1,31 @@
+S2A  Held-out one-step-ahead accuracy, 3-state GLM-HMM vs 1-state GLM (mean +/- SEM across rats; paired t-test across held-out rats)
+  rewDS: 87.9 +/- 1.9% vs 79.4 +/- 3.7% (difference +8.5 pp, 95% CI +3.8 to +13.2; higher in 14/16 rats; t(15) = 3.87, p = 0.002; Wilcoxon p = 0.001)
+  punDS: 86.3 +/- 2.8% vs 85.7 +/- 3.0% (difference +0.6 pp, 95% CI -1.2 to +2.4; higher in 4/16 rats; t(15) = 0.71, p = 0.492; Wilcoxon p = 0.480)
+  conflict: 74.7 +/- 1.9% vs 65.6 +/- 1.4% (difference +9.1 pp, 95% CI +5.0 to +13.3; higher in 16/16 rats; t(15) = 4.68, p = 0.0003; Wilcoxon p < 0.0001)
+  Legend text:  [rewDS: 87.9 ± 1.9% vs 79.4 ± 3.7%, t(15) = 3.87, p = 0.002; punDS: 86.3 ± 2.8% vs 85.7 ± 3.0%, t(15) = 0.71, p = 0.492; conflict: 74.7 ± 1.9% vs 65.6 ± 1.4%, t(15) = 4.68, p = 0.0003]
+
+S2B  Held-out one-step-ahead accuracy by number of states (mean +/- SEM across rats)
+  1 state(s): accuracy 77.0 +/- 0.8%; held-out LL/trial -0.4892 +/- 0.0139
+  2 state(s): accuracy 81.3 +/- 1.2%; held-out LL/trial -0.4133 +/- 0.0136
+  3 state(s): accuracy 83.1 +/- 1.0%; held-out LL/trial -0.3945 +/- 0.0169
+  4 state(s): accuracy 84.3 +/- 1.0%; held-out LL/trial -0.3720 +/- 0.0163
+  5 state(s): accuracy 84.4 +/- 1.0%; held-out LL/trial -0.3693 +/- 0.0162
+  Consecutive state numbers (paired across held-out rats):
+    1 -> 2 states, accuracy: +4.31 pp (95% CI +2.09 to +6.53); higher in 14/16 rats; t(15) = 4.13, p = 0.0009
+    1 -> 2 states, LL/trial: +0.0758  (95% CI +0.0530 to +0.0987); higher in 16/16 rats; t(15) = 7.07, p < 0.0001
+    2 -> 3 states, accuracy: +1.84 pp (95% CI -0.23 to +3.92); higher in 10/16 rats; t(15) = 1.89, p = 0.078
+    2 -> 3 states, LL/trial: +0.0189  (95% CI +0.0054 to +0.0324); higher in 11/16 rats; t(15) = 2.98, p = 0.009
+    3 -> 4 states, accuracy: +1.19 pp (95% CI +0.15 to +2.22); higher in 15/16 rats; t(15) = 2.44, p = 0.027
+    3 -> 4 states, LL/trial: +0.0224  (95% CI +0.0118 to +0.0331); higher in 15/16 rats; t(15) = 4.49, p = 0.0004
+    4 -> 5 states, accuracy: +0.06 pp (95% CI -0.17 to +0.30); higher in 10/16 rats; t(15) = 0.59, p = 0.566
+    4 -> 5 states, LL/trial: +0.0027  (95% CI +0.0004 to +0.0050); higher in 12/16 rats; t(15) = 2.45, p = 0.027
+    3 -> 4 states, accuracy: +1.19 pp; t(15) = 2.44, p = 0.027
+    3 -> 5 states, accuracy: +1.25 pp; t(15) = 2.91, p = 0.011
+  Legend text:  [4 states: 84.3 ± 1.0%; 5 states: 84.4 ± 1.0%]
+
+S2C/D  Information criteria (full dataset; from 1.1). Delta = model minus 3-state (negative = better than 3-state)
+  1 states: LL = -11101.6, k = 5, AIC = 22213.2 (delta +4561.0), BIC = 22253.4 (delta +4416.2)
+  2 states: LL = -9374.4, k = 13, AIC = 18774.8 (delta +1122.7), BIC = 18879.5 (delta +1042.2)
+  3 states: LL = -8803.1, k = 23, AIC = 17652.2 (delta +0.0), BIC = 17837.3 (delta +0.0)
+  4 states: LL = -8421.9, k = 35, AIC = 16913.8 (delta -738.3), BIC = 17195.5 (delta -641.7)
+  5 states: LL = -8299.0, k = 49, AIC = 16696.1 (delta -956.1), BIC = 17090.5 (delta -746.8)
